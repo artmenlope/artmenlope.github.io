@@ -47,7 +47,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/2020-02-11/output_2_0.png">
+  <img src="/assets/images/2020-02-11/output_2_0.png" width="50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -78,7 +78,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/2020-02-11/output_4_0.png">
+  <img src="/assets/images/2020-02-11/output_4_0.png" width="50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -211,7 +211,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/2020-02-11/output_8_0.png">
+  <img src="/assets/images/2020-02-11/output_8_0.png" width="50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -247,7 +247,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/2020-02-11/output_10_0.png">
+  <img src="/assets/images/2020-02-11/output_10_0.png" width="50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -400,7 +400,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/2020-02-11/output_17_0.png">
+  <img src="/assets/images/2020-02-11/output_17_0.png" width="50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -445,7 +445,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/2020-02-11/output_20_0.png">
+  <img src="/assets/images/2020-02-11/output_20_0.png" width="50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
