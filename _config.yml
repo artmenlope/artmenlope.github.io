@@ -6,13 +6,13 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Minimal Mistakes"
+locale                   : #"en-US"
+title                    : "Singularities"
 title_separator          : "-"
-name                     : &name "Michael Rose"
-description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
+name                     : "Singularities" #&name "Singularities"
+description              : &description "This blog is mainly about curious things related to mathematics, physics and programming, among other things."
 url                      : https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 repository               : "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -55,12 +55,12 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "mmistakes"
+  username               : #&twitter ""
 facebook:
-  username               : &facebook "michaelrose"
+  username               : #&facebook ""
   app_id                 :
   publisher              :
-og_image                 : "site-logo.png" # Open Graph/Twitter default site image
+og_image                 : #"site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -74,27 +74,27 @@ social:
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-2011187-3"
+    tracking_id          : #"UA-2011187-3"
 
 
 # Site Author
 author:
   name             : *name
-  avatar           : "michael-rose.jpg"
-  bio              : "Just another boring, tattooed, time traveling, designer."
-  location         : "Buffalo, NY"
+  avatar           : #"michael-rose.jpg"
+  bio              : #"Just another boring, tattooed, time traveling, designer."
+  location         : #"Buffalo, NY"
   email            :
-  uri              : "https://mademistakes.com"
+  uri              : #"https://mademistakes.com"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : *facebook
+  facebook         : #*facebook
   foursquare       :
-  github           : "mmistakes"
+  github           : "artmenlope"
   google_plus      :
   keybase          :
-  instagram        : "mmistakes"
+  instagram        : #"mmistakes"
   lastfm           :
   linkedin         :
   pinterest        :
@@ -102,7 +102,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : *twitter
+  twitter          : #*twitter
   vine             :
   weibo            :
   xing             :
