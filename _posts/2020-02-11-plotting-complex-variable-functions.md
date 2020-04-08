@@ -92,6 +92,7 @@ The next method would be to graph separately the real and imaginary part of the 
 
 As an example, we have the graphs of the complex sine $f(z)= \sin z = \dfrac{e^{iz}-e^{-iz}}{2i}$. We can see how its components diverge as we move away from the origin parallel to the imaginary axis of the complex plane.
 </div>
+<br>
 
 ```python
 N = 50
@@ -232,7 +233,7 @@ To begin with, let's choose the function $f(z) = \dfrac{1}{(z-1)(z+1)^2}$.
 
 We see that in $z = 1$ it has a simple pole, but in $z=-1$ a pole of order 2. This can be detected by looking at the values of the colour spectrum around the singularity. The color spectrum turns twice around $z=-1$, an order two pole, but once around $z=1$, an order one pole. This multiplicity of turns in the colour can also be seen in the zeros of order greater than 1 in other functions (informal note: $e^{i 2θ}$ turns twice as fast as $e^{iθ}$).
 </div>
-
+<br>
 
 ```python
 lim = 2
@@ -399,6 +400,7 @@ plt.show()
 <div style="text-align: justify">
 This method is used, for example, in fluid dynamics to represent the flow of a fluid around objects. As a concrete example, I show how the function z+1/z could describe the flow around the section of a cylindrical body of radius the unity. This transform is called a Joukowski transform (see references, N.Hall). 
 </div>
+<br>
 
 ```python
 from matplotlib.patches import Circle
@@ -433,7 +435,7 @@ Another form of representation complementary to the one we have just seen, also 
 
 In order to represent the complex function as a vector field, what is done is to separate the real part of the function from the imaginary one. Then, if we take any point in space , say $z=x+iy$, the two components of our vector at that point would be the value of the real component of the function at that point and the value of the imaginary component respectively: $\vec{v} = \left(\mbox{Re} f(z), \mbox{Im} f(z) \right)$.
 </div>
-
+<br>
 
 ```python
 def f(z):
