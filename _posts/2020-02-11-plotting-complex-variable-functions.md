@@ -344,8 +344,11 @@ We would be representing the contour lines as if we were in the real plane $\mat
 </div>
 $$
 \begin{split}
-f(z) & =z+\frac{1}{z} = z+\frac{\overline{z}}{|z|^2} = x + iy + \frac{x}{x^2+y^2} - i \frac{y}{x^2+y^2} = \\[2ex]
-& = \left( x + \frac{x}{x^2+y^2} \right) + i \left( y - \frac{y}{x^2+y^2} \right) = \mbox{Re} f(z) + i \, \mbox{Im} f(z)
+f(z) & =z+\frac{1}{z} = \\[2ex]
+& =  z+\frac{\overline{z}}{|z|^2} = \\[2ex]
+& =  x + iy + \frac{x}{x^2+y^2} - i \frac{y}{x^2+y^2} = \\[2ex]
+& = \left( x + \frac{x}{x^2+y^2} \right) + i \left( y - \frac{y}{x^2+y^2} \right) = \\[2ex]
+& = \mbox{Re} f(z) + i \, \mbox{Im} f(z)
 \end{split}
 $$
 
