@@ -1,3 +1,4 @@
+<div style="text-align: justify">
 # Plotting complex variable functions
 
 
@@ -476,3 +477,5 @@ functions_. [online] Gandhi Viswanathan’s Blog. Available at: [https://gandhiv
 
 - S. Ganguli. (2008). _Conformal Mapping and its Applications_. [online] Iiserpune.ac.in. Available at: [http://www.iiserpune.ac.in/~p.subramanian/conformal_mapping1.pdf](http://www.iiserpune.ac.in/~p.subramanian/conformal_mapping1.pdf)
 <br>
+
+</div>
