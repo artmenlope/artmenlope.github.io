@@ -46,16 +46,15 @@ ax.set_title("$|f(z)|=|\dfrac{1}{z^2-4}|$", size=18, pad=30)
 plt.show()
 ```
 
-<figure class="verticalhorizontal">
+<figure class="aligncenter">
   <img src="/assets/images/2020-02-11/output_2_0.png" style="width:50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
-<br>
-<br>
+
 Or representing the absolute value of the gamma function, $\Gamma(z)= \int_{0}^{\infty} t^{z-1} e^{-t} dt $, we can see its single poles at the negative integers and at $z=0$.
 <br>
-<br>
+
 
 
 ```python
@@ -76,7 +75,7 @@ ax.view_init(azim=-130, elev=35)
 plt.show()
 ```
 
-<figure class="verticalhorizontal">
+<figure class="aligncenter">
   <img src="/assets/images/2020-02-11/output_4_0.png" style="width:50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
@@ -123,7 +122,6 @@ plt.show()
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
-<br>
 
 ## Domain coloring
 
@@ -153,7 +151,6 @@ $$
 With this, a higher module value translates into lighter colors, $\theta=-\pi, \pi$ corresponds to the cyan color and $\theta=0$ to the red color.
 
 For example we choose the function $f(z) = (z-1)^5 + 1$. We can see how its five zeros are in the unit radius circle centered at $z=1$.
-<br>
 <br>
 
 
@@ -209,7 +206,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-<figure class="verticalhorizontal">
+<figure class="aligncenter">
   <img src="/assets/images/2020-02-11/output_8_0.png" style="width:50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
@@ -245,12 +242,12 @@ plt.tight_layout()
 plt.show()
 ```
 
-<figure class="verticalhorizontal">
+<figure class="aligncenter">
   <img src="/assets/images/2020-02-11/output_10_0.png" style="width:50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
-<br>
+
 The following examples are the functions $\displaystyle f(z)=e^{\frac{1}{z}}$ and $f(z)=\frac{\sin z}{z}$. 
 <br>
 
@@ -307,8 +304,8 @@ The function ends up taking all the values of $\mathbb{C}$ as verified by the Ca
 
 On the other hand, we can see the zeros of the function $\frac{sin(z)}{z}$ in black at the multiples of $\pi$ and we can see that the supposed singularity at $z=0$ does not appear, it is avoided. $\frac{sin(z)}{z}$ has an avoidable singularity at $z=0$.
 
-## Conformal mapping
 
+## Conformal mapping
 
 Another way to represent a complex function is by drawing how the curves and points on the complex plane are transformed when the function is applied. This method would be the transformation graph or conformal mapping _(remark: a conformal map is a function that preserves the angles)_.
 
@@ -327,7 +324,10 @@ $$
 We would be representing the contour lines as if we were in the real plane $\mathbb{R}^2$. For example we take the function $f(z)=z+\frac{1}{z}$, with $z = x+iy$ where $x=\mbox{Re} \, z$ and $y=\mbox{Im} \, z$ and $\overline{z} = x-iy $ is the complex conjugate of $z$:
 
 $$
-f(z)=z+\frac{1}{z} = z+\frac{\overline{z}}{|z|^2} = x + iy + \frac{x}{x^2+y^2} - i \frac{y}{x^2+y^2} = \left( x + \frac{x}{x^2+y^2} \right) + i \left( y - \frac{y}{x^2+y^2} \right) = \mbox{Re} f(z) + i \, \mbox{Im} f(z)
+\begin{split}
+f(z) & =z+\frac{1}{z} = z+\frac{\overline{z}}{|z|^2} = x + iy + \frac{x}{x^2+y^2} - i \frac{y}{x^2+y^2} = \\[2ex]
+& = \left( x + \frac{x}{x^2+y^2} \right) + i \left( y - \frac{y}{x^2+y^2} \right) = \mbox{Re} f(z) + i \, \mbox{Im} f(z)
+\end{split}
 $$
 
 <br>
