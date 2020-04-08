@@ -455,25 +455,25 @@ $$|\vec{v}| = \sqrt{(\mbox{Re} f(z))^2 + (\mbox{Im} f(z))^2} = |f(z)|$$
 
 # References
 
-- C. Fernández González (n.d.). _¿Cómo representar funciones en variable compleja?_ [online]. Portal.uned.es. Available at: http://portal.uned.es/pls/portal/docs/PAGE/UNED_MAIN/LAUNIVERSIDAD/UBICACIONES/01/DOCENTE/CARLOS_FERNANDEZ_GONZALEZ/VARIABLE%20COMPLEJA%20GEOGEBRA/REPRESENTARVC.PDF 
+- C. Fernández González (n.d.). _¿Cómo representar funciones en variable compleja?_ [online]. Portal.uned.es. Available at: [http://portal.uned.es/pls/portal/docs/PAGE/UNED_MAIN/LAUNIVERSIDAD/UBICACIONES/01/DOCENTE/CARLOS_FERNANDEZ_GONZALEZ/VARIABLE%20COMPLEJA%20GEOGEBRA/REPRESENTARVC.PDF](http://portal.uned.es/pls/portal/docs/PAGE/UNED_MAIN/LAUNIVERSIDAD/UBICACIONES/01/DOCENTE/CARLOS_FERNANDEZ_GONZALEZ/VARIABLE%20COMPLEJA%20GEOGEBRA/REPRESENTARVC.PDF) 
 <br>
 
 - C. Maggi, et al. (n.d.). _Aplicaciones gráficas de funciones complejas_.
-[online] academia.edu. Available at: https://www.academia.edu/2211067/Aplicaciones_gr%C3%A1ficas_de_funciones_complejas
+[online] academia.edu. Available at: [https://www.academia.edu/2211067/Aplicaciones_gr%C3%A1ficas_de_funciones_complejas](https://www.academia.edu/2211067/Aplicaciones_gr%C3%A1ficas_de_funciones_complejas)
 <br>
 
 - G. Viswanathan (2014). _Domain coloring for visualizing complex
-functions_. [online] Gandhi Viswanathan’s Blog. Available at: https://gandhiviswanathan.wordpress.com/2014/10/07/domain-coloring-for-visualizing-complex-functions/
+functions_. [online] Gandhi Viswanathan’s Blog. Available at: [https://gandhiviswanathan.wordpress.com/2014/10/07/domain-coloring-for-visualizing-complex-functions/](https://gandhiviswanathan.wordpress.com/2014/10/07/domain-coloring-for-visualizing-complex-functions/)
 <br>
 
-- En.wikipedia.org. (2019). _Domain coloring_. [online] Available at: https://en.wikipedia.org/wiki/Domain_coloring
+- En.wikipedia.org. (2019). _Domain coloring_. [online] Available at: [https://en.wikipedia.org/wiki/Domain_coloring](https://en.wikipedia.org/wiki/Domain_coloring)
 <br>
 
-- Wikidot.com. (n.d.). _The Casorati-Weierstrass theorem_. [online] Available at: http://mathonline.wikidot.com/the-casorati-weierstrass-theorem
+- Wikidot.com. (n.d.). _The Casorati-Weierstrass theorem_. [online] Available at: [http://mathonline.wikidot.com/the-casorati-weierstrass-theorem](http://mathonline.wikidot.com/the-casorati-weierstrass-theorem)
 <br>
 
-- N. Hall. (2018). _Conformal mapping, Joukowsky transformation_. [online] grc.nasa.gov. Available at: https://www.grc.nasa.gov/www/k-12/airplane/map.html
+- N. Hall. (2018). _Conformal mapping, Joukowsky transformation_. [online] grc.nasa.gov. Available at: [https://www.grc.nasa.gov/www/k-12/airplane/map.html](https://www.grc.nasa.gov/www/k-12/airplane/map.html)
 <br>
 
-- S. Ganguli. (2008). _Conformal Mapping and its Applications_. [online] Iiserpune.ac.in. Available at: http://www.iiserpune.ac.in/~p.subramanian/conformal_mapping1.pdf
+- S. Ganguli. (2008). _Conformal Mapping and its Applications_. [online] Iiserpune.ac.in. Available at: [http://www.iiserpune.ac.in/~p.subramanian/conformal_mapping1.pdf](http://www.iiserpune.ac.in/~p.subramanian/conformal_mapping1.pdf)
 <br>
