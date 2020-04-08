@@ -47,7 +47,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/2020-02-11/output_2_0.png" width="50%">
+  <img src="/assets/images/2020-02-11/output_2_0.png" style="width:30%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -78,7 +78,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/2020-02-11/output_4_0.png" width="50%">
+  <img src="/assets/images/2020-02-11/output_4_0.png" style="width:30%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -128,7 +128,7 @@ plt.show()
 
 ## Domain coloring
 
-Another technique that can be used in order to represent complex functions would be to color the domain of our function expressed in polar form $f(z)=|f(z)| \, e^{\,i  Arg f(z)} = r e^{i\theta}$, where $r \geq 0$ and $\theta \in (-\pi,\pi]$. The most common way to do domain coloring is by using the Hue, Saturation and Brightness (HLS) system. Then, what we would do is color each point of the domain according to the argument $\theta$ and modulus $r$ of the function.
+Another technique that can be used in order to represent complex functions would be to color the domain of our function expressed in polar form $f(z)=|f(z)| \, e^{\, i  Arg f(z)} = r e^{i\theta}$, where $r \geq 0$ and $\theta \in (-\pi,\pi]$. The most common way to do domain coloring is by using the Hue, Saturation and Brightness (HLS) system. Then, what we would do is color each point of the domain according to the argument $\theta$ and modulus $r$ of the function.
 
 An example of criteria for choosing the colors would be:
 
@@ -211,7 +211,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/2020-02-11/output_8_0.png" width="50%">
+  <img src="/assets/images/2020-02-11/output_8_0.png" style="width:30%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -247,7 +247,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/2020-02-11/output_10_0.png" width="50%">
+  <img src="/assets/images/2020-02-11/output_10_0.png" style="width:30%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -400,7 +400,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/2020-02-11/output_17_0.png" width="50%">
+  <img src="/assets/images/2020-02-11/output_17_0.png" style="width:30%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -445,7 +445,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/2020-02-11/output_20_0.png" width="50%">
+  <img src="/assets/images/2020-02-11/output_20_0.png" style="width:30%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
