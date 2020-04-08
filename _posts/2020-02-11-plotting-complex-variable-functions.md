@@ -485,7 +485,9 @@ $$|\vec{v}| = \sqrt{(\mbox{Re} f(z))^2 + (\mbox{Im} f(z))^2} = |f(z)|$$
 
 # References
 
-- C. Fernández González (n.d.). _¿Cómo representar funciones en variable compleja?_ [online]. Portal.uned.es. Available at: [http://portal.uned.es/pls/portal/docs/PAGE/UNED_MAIN/LAUNIVERSIDAD/UBICACIONES/01/DOCENTE/CARLOS_FERNANDEZ_GONZALEZ/VARIABLE%20COMPLEJA%20GEOGEBRA/REPRESENTARVC.PDF](http://portal.uned.es/pls/portal/docs/PAGE/UNED_MAIN/LAUNIVERSIDAD/UBICACIONES/01/DOCENTE/CARLOS_FERNANDEZ_GONZALEZ/VARIABLE%20COMPLEJA%20GEOGEBRA/REPRESENTARVC.PDF) 
+- C. Fernández González (n.d.). _¿Cómo representar funciones en variable compleja?_ [online]. Portal.uned.es. Available at: [http://portal.uned.es/pls/portal/docs/PAGE/UNED_MAIN/LAUNIVERSIDAD/UBICACIONES/01/DOCENTE/CARLOS_FERNANDEZ_GONZALEZ/VARIABLE%20COMPLEJA%20GEOGEBRA/REPRESENTARVC.PDF](
+  http://portal.uned.es/pls/portal/docs/PAGE/UNED_MAIN/LAUNIVERSIDAD/UBICACIONES/01/DOCENTE/
+  CARLOS_FERNANDEZ_GONZALEZ/VARIABLE%20COMPLEJA%20GEOGEBRA/REPRESENTARVC.PDF) 
 <br>
 
 - C. Maggi, et al. (n.d.). _Aplicaciones gráficas de funciones complejas_.
