@@ -47,7 +47,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/output_2_0.png">
+  <img src="/assets/images/2020-02-11/output_2_0.png">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -78,7 +78,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/output_4_0.png">
+  <img src="/assets/images/2020-02-11/output_4_0.png">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -120,7 +120,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/output_6_0.png">
+  <img src="/assets/images/2020-02-11/output_6_0.png">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -211,7 +211,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/output_8_0.png">
+  <img src="/assets/images/2020-02-11/output_8_0.png">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -247,7 +247,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/output_10_0.png">
+  <img src="/assets/images/2020-02-11/output_10_0.png">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -299,7 +299,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/output_12_0.png">
+  <img src="/assets/images/2020-02-11/output_12_0.png">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -375,7 +375,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/output_15_0.png">
+  <img src="/assets/images/2020-02-11/output_15_0.png">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -400,7 +400,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/output_17_0.png">
+  <img src="/assets/images/2020-02-11/output_17_0.png">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -445,7 +445,7 @@ plt.show()
 ```
 
 <figure>
-  <img src="/assets/images/output_20_0.png">
+  <img src="/assets/images/2020-02-11/output_20_0.png">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
