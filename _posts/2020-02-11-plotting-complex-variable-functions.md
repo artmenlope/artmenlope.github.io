@@ -52,7 +52,7 @@ plt.show()
 ```
 <div style="text-align: justify">
 <figure class="aligncenter">
-  <img src="/assets/images/2020-02-11/output_2_0.png" style="width:50%">
+  <img src="/assets/images/2020-02-11/output_2_0.png" style="width:50%" class="center">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -80,19 +80,18 @@ ax.view_init(azim=-130, elev=35)
 plt.show()
 ```
 
-<div style="text-align: justify">
 <figure class="aligncenter">
-  <img src="/assets/images/2020-02-11/output_4_0.png" style="width:50%">
+  <img src="/assets/images/2020-02-11/output_4_0.png" style="width:50%" class="center">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
-</div>
 
 ## Plotting the real and imaginary part
 
+<div style="text-align: justify">
 The next method would be to graph separately the real and imaginary part of the function. A similar thing we could do is to graph separately the module and the argument of the function.
 
 As an example, we have the graphs of the complex sine $f(z)= \sin z = \dfrac{e^{iz}-e^{-iz}}{2i}$. We can see how its components diverge as we move away from the origin parallel to the imaginary axis of the complex plane.
-
+</div>
 
 ```python
 N = 50
@@ -132,9 +131,11 @@ plt.show()
 
 ## Domain coloring
 
+<div style="text-align: justify">
 Another technique that can be used in order to represent complex functions would be to color the domain of our function expressed in polar form $f(z)=|f(z)| \, e^{\, i  Arg f(z)} = r e^{i\theta}$, where $r \geq 0$ and $\theta \in (-\pi,\pi]$. The most common way to do domain coloring is by using the Hue, Saturation and Brightness (HLS) system. Then, what we would do is color each point of the domain according to the argument $\theta$ and modulus $r$ of the function.
 
 An example of criteria for choosing the colors would be:
+</div>
 
 $$
 \begin{align}
@@ -144,7 +145,9 @@ S &= 1
 \end{align}
 $$
 
+<div style="text-align: justify">
 but, precisely, for the following demonstrations I will be using 
+</div>
 
 $$
 \begin{align}
@@ -155,11 +158,12 @@ S &= 1
 \end{align}
 $$
 
+<div style="text-align: justify">
 With this, a higher module value translates into lighter colors, $\theta=-\pi, \pi$ corresponds to the cyan color and $\theta=0$ to the red color.
 
 For example we choose the function $f(z) = (z-1)^5 + 1$. We can see how its five zeros are in the unit radius circle centered at $z=1$.
+</div>
 <br>
-
 
 ```python
 from colorsys import hls_to_rgb
@@ -214,10 +218,11 @@ plt.show()
 ```
 
 <figure class="aligncenter">
-  <img src="/assets/images/2020-02-11/output_8_0.png" style="width:50%">
+  <img src="/assets/images/2020-02-11/output_8_0.png" style="width:50%" class="center">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
+<div style="text-align: justify">
 In this way, in just one graph, the variation of the two components of the polar function can be seen on the complex plane, which makes it possible to locate points of interest that the function may contain.
 
 In this example we can clearly see where the zeros of the function would be located.
@@ -226,6 +231,7 @@ But, in the following examples, we will also identify the order of the poles and
 To begin with, let's choose the function $f(z) = \dfrac{1}{(z-1)(z+1)^2}$.
 
 We see that in $z = 1$ it has a simple pole, but in $z=-1$ a pole of order 2. This can be detected by looking at the values of the colour spectrum around the singularity. The color spectrum turns twice around $z=-1$, an order two pole, but once around $z=1$, an order one pole. This multiplicity of turns in the colour can also be seen in the zeros of order greater than 1 in other functions (informal note: $e^{i 2θ}$ turns twice as fast as $e^{iθ}$).
+</div>
 
 
 ```python
@@ -250,12 +256,13 @@ plt.show()
 ```
 
 <figure class="aligncenter">
-  <img src="/assets/images/2020-02-11/output_10_0.png" style="width:50%">
+  <img src="/assets/images/2020-02-11/output_10_0.png" style="width:50%" class="center">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
-
+<div style="text-align: justify">
 The following examples are the functions $\displaystyle f(z)=e^{\frac{1}{z}}$ and $f(z)=\frac{\sin z}{z}$. 
+</div>
 <br>
 
 
@@ -306,19 +313,22 @@ plt.show()
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
+<div style="text-align: justify">
 $e^{\frac{1}{z}}$ is an example of function with an essential singularity. We can see how at $z=0$ the color spectrum takes infinitely many turns and the module becomes zero when approaching $z=0$ from the left but becomes infinite when approaching it from the right.
 The function ends up taking all the values of $\mathbb{C}$ as verified by the Casorati-Weierstrass theorem (see references).
 
 On the other hand, we can see the zeros of the function $\frac{sin(z)}{z}$ in black at the multiples of $\pi$ and we can see that the supposed singularity at $z=0$ does not appear, it is avoided. $\frac{sin(z)}{z}$ has an avoidable singularity at $z=0$.
-
+</div>
 
 ## Conformal mapping
 
-Another way to represent a complex function is by drawing how the curves and points on the complex plane are transformed when the function is applied. This method would be the transformation graph or conformal mapping _(remark: a conformal map is a function that preserves the angles)_.
+<div style="text-align: justify">
+Another way to represent a complex function is by drawing how the curves and points on the complex plane are transformed when the function is applied. This method would be the transformation graph or conformal mapping <i>(remark: a conformal map is a function that preserves the angles)</i>.
 
 A common way to do this is by taking the horizontal and vertical lines in the complex plane. 
 
 If we have a function f(z) we can represent what the contour lines would be by equating its real and imaginary components to real constants $C_1$ and $C_2$ respectively. 
+</div>
 $$f(z) = \mbox{Re} f(z) + i \, \mbox{Im} f(z)$$
 
 $$
@@ -328,8 +338,9 @@ $$
 \end{align}
 $$
 
+<div style="text-align: justify">
 We would be representing the contour lines as if we were in the real plane $\mathbb{R}^2$. For example we take the function $f(z)=z+\frac{1}{z}$, with $z = x+iy$ where $x=\mbox{Re} \, z$ and $y=\mbox{Im} \, z$ and $\overline{z} = x-iy $ is the complex conjugate of $z$:
-
+</div>
 $$
 \begin{split}
 f(z) & =z+\frac{1}{z} = z+\frac{\overline{z}}{|z|^2} = x + iy + \frac{x}{x^2+y^2} - i \frac{y}{x^2+y^2} = \\[2ex]
@@ -385,8 +396,9 @@ plt.show()
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
+<div style="text-align: justify">
 This method is used, for example, in fluid dynamics to represent the flow of a fluid around objects. As a concrete example, I show how the function z+1/z could describe the flow around the section of a cylindrical body of radius the unity. This transform is called a Joukowski transform (see references, N.Hall). 
-
+</div>
 
 ```python
 from matplotlib.patches import Circle
@@ -406,18 +418,21 @@ plt.show()
 ```
 
 <figure class="verticalhorizontal">
-  <img src="/assets/images/2020-02-11/output_17_0.png" style="width:50%">
+  <img src="/assets/images/2020-02-11/output_17_0.png" style="width:50%" class="center">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
+<div style="text-align: justify">
 The procedure of conformal mapping, apart from fluid mechanics, is also applied in cartography, general relativity, electrostatics, scattering and diffraction problems, medical physics for brain surface mapping, etc (see S.Ganguli).
+</div>
 
 ## Plotting as a vector field
 
+<div style="text-align: justify">
 Another form of representation complementary to the one we have just seen, also used in the areas mentioned before, would be the representation of the vector field generated by the complex function.
 
 In order to represent the complex function as a vector field, what is done is to separate the real part of the function from the imaginary one. Then, if we take any point in space , say $z=x+iy$, the two components of our vector at that point would be the value of the real component of the function at that point and the value of the imaginary component respectively: $\vec{v} = \left(\mbox{Re} f(z), \mbox{Im} f(z) \right)$.
-
+</div>
 
 
 ```python
@@ -451,11 +466,13 @@ plt.show()
 ```
 
 <figure class="verticalhorizontal">
-  <img src="/assets/images/2020-02-11/output_20_0.png" style="width:50%">
+  <img src="/assets/images/2020-02-11/output_20_0.png" style="width:50%" class="center">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
+<div style="text-align: justify">
 In this figure we can see that the real part of $\cos z$ has zeros at the points where $\mbox{Re} z = \pm \frac{\pi}{2} \approx \pm 1.57 $. We can say so because at those points the vectors $\vec{v} = \left(\mbox{Re} f(z), \mbox{Im} f(z) \right)$ only have vertical (or imaginary) component. In addition, we can determine if the function is positive or negative at those points just by looking if the vectors are positive or negative in the vertical direction. The modulus of the vectors can give information about the modulus of the function. 
+</div>
 
 $$|\vec{v}| = \sqrt{(\mbox{Re} f(z))^2 + (\mbox{Im} f(z))^2} = |f(z)|$$
 
