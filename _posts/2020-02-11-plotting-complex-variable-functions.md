@@ -13,14 +13,16 @@ In this post I show a small compilation of some methods that can be used to solv
 - Plotting as a vector field.
 
 <div style="text-align: justify">
-All the examples will be included with their respective **Python 3** code.
+All the examples will be included with their respective <b>Python 3</b> code.
 </div>
 
 ## Plotting the function's module
 
+<div style="text-align: justify">
 The first method that could be used would be the representation of the module of the complex function. With this, what we are doing is turning our four-dimensional representation into a three-dimensional graph of a surface. In this way we can obtain information about the singularities of our function, since we are given the possibility of detecting them quickly simply by seeing which parts of the graph go to infinity.
 
 For example, by representing the module of the function $f(z) = \dfrac{1}{z^2+4}$, where $z \in \mathbb{C}$, we can detect two singularities, in this case two simple poles one at $z=-2$ and the other at $z=2$.
+</div>
 <br>
 
 
@@ -54,8 +56,9 @@ plt.show()
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
-
+<div style="text-align: justify">
 Or representing the absolute value of the gamma function, $\Gamma(z)= \int_{0}^{\infty} t^{z-1} e^{-t} dt $, we can see its single poles at the negative integers and at $z=0$.
+</div>
 <br>
 
 
