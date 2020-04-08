@@ -50,17 +50,16 @@ ax.set_title("$|f(z)|=|\dfrac{1}{z^2-4}|$", size=18, pad=30)
 
 plt.show()
 ```
-
+<div style="text-align: justify">
 <figure class="aligncenter">
   <img src="/assets/images/2020-02-11/output_2_0.png" style="width:50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
-<div style="text-align: justify">
+
 Or representing the absolute value of the gamma function, $\Gamma(z)= \int_{0}^{\infty} t^{z-1} e^{-t} dt $, we can see its single poles at the negative integers and at $z=0$.
 </div>
 <br>
-
 
 
 ```python
@@ -81,10 +80,12 @@ ax.view_init(azim=-130, elev=35)
 plt.show()
 ```
 
+<div style="text-align: justify">
 <figure class="aligncenter">
   <img src="/assets/images/2020-02-11/output_4_0.png" style="width:50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
+</div>
 
 ## Plotting the real and imaginary part
 
