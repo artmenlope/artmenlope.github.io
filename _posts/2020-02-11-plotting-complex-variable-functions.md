@@ -46,11 +46,10 @@ ax.set_title("$|f(z)|=|\dfrac{1}{z^2-4}|$", size=18, pad=30)
 plt.show()
 ```
 
-<figure>
-  <img src="/assets/images/2020-02-11/output_2_0.png" style="width:30%">
+<figure class="verticalhorizontal">
+  <img src="/assets/images/2020-02-11/output_2_0.png" style="width:50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
-
 
 <br>
 <br>
@@ -77,8 +76,8 @@ ax.view_init(azim=-130, elev=35)
 plt.show()
 ```
 
-<figure>
-  <img src="/assets/images/2020-02-11/output_4_0.png" style="width:30%">
+<figure class="verticalhorizontal">
+  <img src="/assets/images/2020-02-11/output_4_0.png" style="width:50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -210,8 +209,8 @@ plt.tight_layout()
 plt.show()
 ```
 
-<figure>
-  <img src="/assets/images/2020-02-11/output_8_0.png" style="width:30%">
+<figure class="verticalhorizontal">
+  <img src="/assets/images/2020-02-11/output_8_0.png" style="width:50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -246,8 +245,8 @@ plt.tight_layout()
 plt.show()
 ```
 
-<figure>
-  <img src="/assets/images/2020-02-11/output_10_0.png" style="width:30%">
+<figure class="verticalhorizontal">
+  <img src="/assets/images/2020-02-11/output_10_0.png" style="width:50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -399,8 +398,8 @@ plt.tight_layout()
 plt.show()
 ```
 
-<figure>
-  <img src="/assets/images/2020-02-11/output_17_0.png" style="width:30%">
+<figure class="verticalhorizontal">
+  <img src="/assets/images/2020-02-11/output_17_0.png" style="width:50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
@@ -444,8 +443,8 @@ plt.tight_layout()
 plt.show()
 ```
 
-<figure>
-  <img src="/assets/images/2020-02-11/output_20_0.png" style="width:30%">
+<figure class="verticalhorizontal">
+  <img src="/assets/images/2020-02-11/output_20_0.png" style="width:50%">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
