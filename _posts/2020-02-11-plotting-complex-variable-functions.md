@@ -473,7 +473,7 @@ plt.show()
 ```
 
 <figure class="verticalhorizontal">
-  <img src="/assets/images/2020-02-11/output_20_0.png" style="width:50%" class="center">
+  <img src="/assets/images/2020-02-11/output_20_0.png" style="width:70%" class="center">
   <!--<figcaption>This is a figure caption.</figcaption>-->
 </figure>
 
