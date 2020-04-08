@@ -1,9 +1,10 @@
 # Plotting complex variable functions
 
-
+<div style="text-align: justify">
 When we try to plot a complex variable function we encounter a first problem: we need a four-dimensional space. This is because this type of function goes from the complex plane to the complex plane, that is, two dimensions are associated to the input variable of the function and another two to the result of the function.
 
 In this post I show a small compilation of some methods that can be used to solve this problem. These methods are:
+</div>
 
 - Plotting the function's module.
 - Plotting the real and imaginary part.
@@ -11,7 +12,9 @@ In this post I show a small compilation of some methods that can be used to solv
 - Conformal mapping.
 - Plotting as a vector field.
 
+<div style="text-align: justify">
 All the examples will be included with their respective **Python 3** code.
+</div>
 
 ## Plotting the function's module
 
