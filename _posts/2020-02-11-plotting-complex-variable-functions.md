@@ -1,3 +1,7 @@
+---
+toc: true
+---
+
 # Plotting complex variable functions
 
 <div style="text-align: justify">
