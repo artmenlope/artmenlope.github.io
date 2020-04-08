@@ -46,8 +46,10 @@ ax.set_title("$|f(z)|=|\dfrac{1}{z^2-4}|$", size=18, pad=30)
 plt.show()
 ```
 
-
-![png](output_2_0.png)
+<figure>
+  <img src="/assets/images/output_2_0.png">
+  <!--<figcaption>This is a figure caption.</figcaption>-->
+</figure>
 
 
 <br>
@@ -75,9 +77,10 @@ ax.view_init(azim=-130, elev=35)
 plt.show()
 ```
 
-
-![png](output_4_0.png)
-
+<figure>
+  <img src="/assets/images/output_4_0.png">
+  <!--<figcaption>This is a figure caption.</figcaption>-->
+</figure>
 
 ## Plotting the real and imaginary part
 
@@ -116,9 +119,10 @@ ax2.set_title("$Im \,\, f(z)$")
 plt.show()
 ```
 
-
-![png](output_6_0.png)
-
+<figure>
+  <img src="/assets/images/output_6_0.png">
+  <!--<figcaption>This is a figure caption.</figcaption>-->
+</figure>
 
 <br>
 
@@ -206,9 +210,10 @@ plt.tight_layout()
 plt.show()
 ```
 
-
-![png](output_8_0.png)
-
+<figure>
+  <img src="/assets/images/output_8_0.png">
+  <!--<figcaption>This is a figure caption.</figcaption>-->
+</figure>
 
 In this way, in just one graph, the variation of the two components of the polar function can be seen on the complex plane, which makes it possible to locate points of interest that the function may contain.
 
@@ -241,9 +246,10 @@ plt.tight_layout()
 plt.show()
 ```
 
-
-![png](output_10_0.png)
-
+<figure>
+  <img src="/assets/images/output_10_0.png">
+  <!--<figcaption>This is a figure caption.</figcaption>-->
+</figure>
 
 <br>
 The following examples are the functions $\displaystyle f(z)=e^{\frac{1}{z}}$ and $f(z)=\frac{\sin z}{z}$. 
@@ -292,9 +298,10 @@ plt.tight_layout()
 plt.show()
 ```
 
-
-![png](output_12_0.png)
-
+<figure>
+  <img src="/assets/images/output_12_0.png">
+  <!--<figcaption>This is a figure caption.</figcaption>-->
+</figure>
 
 $e^{\frac{1}{z}}$ is an example of function with an essential singularity. We can see how at $z=0$ the color spectrum takes infinitely many turns and the module becomes zero when approaching $z=0$ from the left but becomes infinite when approaching it from the right.
 The function ends up taking all the values of $\mathbb{C}$ as verified by the Casorati-Weierstrass theorem (see references).
@@ -367,9 +374,10 @@ plt.subplots_adjust(wspace=0.5)
 plt.show()
 ```
 
-
-![png](output_15_0.png)
-
+<figure>
+  <img src="/assets/images/output_15_0.png">
+  <!--<figcaption>This is a figure caption.</figcaption>-->
+</figure>
 
 This method is used, for example, in fluid dynamics to represent the flow of a fluid around objects. As a concrete example, I show how the function z+1/z could describe the flow around the section of a cylindrical body of radius the unity. This transform is called a Joukowski transform (see references, N.Hall). 
 
@@ -391,9 +399,10 @@ plt.tight_layout()
 plt.show()
 ```
 
-
-![png](output_17_0.png)
-
+<figure>
+  <img src="/assets/images/output_17_0.png">
+  <!--<figcaption>This is a figure caption.</figcaption>-->
+</figure>
 
 The procedure of conformal mapping, apart from fluid mechanics, is also applied in cartography, general relativity, electrostatics, scattering and diffraction problems, medical physics for brain surface mapping, etc (see S.Ganguli).
 
@@ -435,9 +444,10 @@ plt.tight_layout()
 plt.show()
 ```
 
-
-![png](output_20_0.png)
-
+<figure>
+  <img src="/assets/images/output_20_0.png">
+  <!--<figcaption>This is a figure caption.</figcaption>-->
+</figure>
 
 In this figure we can see that the real part of $\cos z$ has zeros at the points where $\mbox{Re} z = \pm \frac{\pi}{2} \approx \pm 1.57 $. We can say so because at those points the vectors $\vec{v} = \left(\mbox{Re} f(z), \mbox{Im} f(z) \right)$ only have vertical (or imaginary) component. In addition, we can determine if the function is positive or negative at those points just by looking if the vectors are positive or negative in the vertical direction. The modulus of the vectors can give information about the modulus of the function. 
 
