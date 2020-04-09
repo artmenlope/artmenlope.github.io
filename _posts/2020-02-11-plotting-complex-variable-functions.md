@@ -133,11 +133,11 @@ An example of criteria for choosing the colors would be:
 </div>
 
 $$
-\left\{\begin{align}
+\begin{cases}
 H &= Arg \, f(z) \\[0.5ex]
 L &= 1-a^{|f(z)|},\; 0<a<1 \\[0.5ex]
 S &= 1
-\end{align}
+\end{cases}
 $$
 
 <div style="text-align: justify">
@@ -145,12 +145,12 @@ but, precisely, for the following demonstrations I will be using
 </div>
 
 $$
-\left\{\begin{align}
+\begin{cases}
 r &\rightarrow \log_2(1+r) \\[0.5ex]
 H &= \frac{Arg \, f(z)}{2\pi} \\[0.5ex]
 L &= 1-0.45^{\ln\left(1+|f(z)|\right)} \\[0.5ex]
 S &= 1
-\end{align}
+\end{cases}
 $$
 
 <div style="text-align: justify">
