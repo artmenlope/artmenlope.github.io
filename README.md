@@ -1,6 +1,6 @@
 # Singularities
 
-Welcome to my blog!
+Welcome to my [blog](https://artmenlope.github.io/)!
 
 This blog is mainly about curious things related to mathematics, physics and programming, among other things.
 
