@@ -54,9 +54,10 @@ plt.show()
 
 <img src="/assets/images/2020-02-11/output_2_0.png" style="width:50%" class="center">{: .align-center}
 
-
+<div style="text-align: justify">
 Or representing the absolute value of the gamma function, $\Gamma(z)= \int_{0}^{\infty} t^{z-1} e^{-t} dt $, we can see its single poles at the negative integers and at $z=0$.
 </div>
+
 <br>
 
 
