@@ -1,4 +1,4 @@
-# Plotting complex variable functions
+<!-- # Plotting complex variable functions -->
 
 <div style="text-align: justify">
 When we try to plot a complex variable function we encounter a first problem: we need a four-dimensional space. This is because this type of function goes from the complex plane to the complex plane, that is, two dimensions are associated to the input variable of the function and another two to the result of the function.
@@ -55,7 +55,7 @@ plt.show()
 <figure class="aligncenter">
   <img src="/assets/images/2020-02-11/output_2_0.png" style="width:50%" class="center">
   <!--<figcaption>This is a figure caption.</figcaption>-->
-</figure>
+</figure>{: .align-center}
 
 
 Or representing the absolute value of the gamma function, $\Gamma(z)= \int_{0}^{\infty} t^{z-1} e^{-t} dt $, we can see its single poles at the negative integers and at $z=0$.
