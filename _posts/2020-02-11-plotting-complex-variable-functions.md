@@ -133,7 +133,7 @@ An example of criteria for choosing the colors would be:
 </div>
 
 $$
-\begin{align}
+\left\{\begin{align}
 H &= Arg \, f(z) \\[0.5ex]
 L &= 1-a^{|f(z)|},\; 0<a<1 \\[0.5ex]
 S &= 1
@@ -145,7 +145,7 @@ but, precisely, for the following demonstrations I will be using
 </div>
 
 $$
-\begin{align}
+\left\{\begin{align}
 r &\rightarrow \log_2(1+r) \\[0.5ex]
 H &= \frac{Arg \, f(z)}{2\pi} \\[0.5ex]
 L &= 1-0.45^{\ln\left(1+|f(z)|\right)} \\[0.5ex]
