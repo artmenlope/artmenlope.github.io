@@ -78,10 +78,8 @@ ax.view_init(azim=-130, elev=35)
 plt.show()
 ```
 
-<figure class="aligncenter">
-  <img src="/assets/images/2020-02-11/output_4_0.png" style="width:50%" class="center">
-  <!--<figcaption>This is a figure caption.</figcaption>-->
-</figure>
+<img src="/assets/images/2020-02-11/output_4_0.png" style="width:50%" class="center">{: .align-center}
+
 
 ## Plotting the real and imaginary part
 
@@ -122,10 +120,7 @@ ax2.set_title("$Im \,\, f(z)$")
 plt.show()
 ```
 
-<figure>
-  <img src="/assets/images/2020-02-11/output_6_0.png">
-  <!--<figcaption>This is a figure caption.</figcaption>-->
-</figure>
+<img src="/assets/images/2020-02-11/output_6_0.png">{: .align-center}
 
 
 ## Domain coloring
@@ -216,10 +211,8 @@ plt.tight_layout()
 plt.show()
 ```
 
-<figure class="aligncenter">
-  <img src="/assets/images/2020-02-11/output_8_0.png" style="width:50%" class="center">
-  <!--<figcaption>This is a figure caption.</figcaption>-->
-</figure>
+<img src="/assets/images/2020-02-11/output_8_0.png" style="width:50%" class="center">{: .align-center}
+
 
 <div style="text-align: justify">
 In this way, in just one graph, the variation of the two components of the polar function can be seen on the complex plane, which makes it possible to locate points of interest that the function may contain.
@@ -254,10 +247,8 @@ plt.tight_layout()
 plt.show()
 ```
 
-<figure class="aligncenter">
-  <img src="/assets/images/2020-02-11/output_10_0.png" style="width:50%" class="center">
-  <!--<figcaption>This is a figure caption.</figcaption>-->
-</figure>
+<img src="/assets/images/2020-02-11/output_10_0.png" style="width:50%" class="center">{: .align-center}
+
 
 <div style="text-align: justify">
 The following examples are the functions $\displaystyle f(z)=e^{\frac{1}{z}}$ and $f(z)=\frac{\sin z}{z}$. 
@@ -307,10 +298,9 @@ plt.tight_layout()
 plt.show()
 ```
 
-<figure>
-  <img src="/assets/images/2020-02-11/output_12_0.png">
-  <!--<figcaption>This is a figure caption.</figcaption>-->
-</figure>
+
+<img src="/assets/images/2020-02-11/output_12_0.png">{: .align-center}
+
 
 <div style="text-align: justify">
 $e^{\frac{1}{z}}$ is an example of function with an essential singularity. We can see how at $z=0$ the color spectrum takes infinitely many turns and the module becomes zero when approaching $z=0$ from the left but becomes infinite when approaching it from the right.
@@ -395,10 +385,9 @@ plt.subplots_adjust(wspace=0.5)
 plt.show()
 ```
 
-<figure>
-  <img src="/assets/images/2020-02-11/output_15_0.png">
-  <!--<figcaption>This is a figure caption.</figcaption>-->
-</figure>
+
+<img src="/assets/images/2020-02-11/output_15_0.png">{: .align-center}
+
 
 <div style="text-align: justify">
 This method is used, for example, in fluid dynamics to represent the flow of a fluid around objects. As a concrete example, I show how the function z+1/z could describe the flow around the section of a cylindrical body of radius the unity. This transform is called a Joukowski transform (see references, N.Hall). 
@@ -422,10 +411,9 @@ plt.tight_layout()
 plt.show()
 ```
 
-<figure class="verticalhorizontal">
-  <img src="/assets/images/2020-02-11/output_17_0.png" style="width:50%" class="center">
-  <!--<figcaption>This is a figure caption.</figcaption>-->
-</figure>
+
+<img src="/assets/images/2020-02-11/output_17_0.png" style="width:50%" class="center">{: .align-center}
+
 
 <div style="text-align: justify">
 The procedure of conformal mapping, apart from fluid mechanics, is also applied in cartography, general relativity, electrostatics, scattering and diffraction problems, medical physics for brain surface mapping, etc (see S.Ganguli).
@@ -470,10 +458,9 @@ plt.tight_layout()
 plt.show()
 ```
 
-<figure class="verticalhorizontal">
-  <img src="/assets/images/2020-02-11/output_20_0.png" style="width:70%" class="center">
-  <!--<figcaption>This is a figure caption.</figcaption>-->
-</figure>
+
+<img src="/assets/images/2020-02-11/output_20_0.png" style="width:70%" class="center">{: .align-center}
+
 
 <div style="text-align: justify">
 In this figure we can see that the real part of $\cos z$ has zeros at the points where $\mbox{Re} z = \pm \frac{\pi}{2} \approx \pm 1.57 $. We can say so because at those points the vectors $\vec{v} = \left(\mbox{Re} f(z), \mbox{Im} f(z) \right)$ only have vertical (or imaginary) component. In addition, we can determine if the function is positive or negative at those points just by looking if the vectors are positive or negative in the vertical direction. The modulus of the vectors can give information about the modulus of the function. 
