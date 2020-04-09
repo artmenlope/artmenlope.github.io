@@ -1,7 +1,3 @@
----
-toc: true
----
-
 # Plotting complex variable functions
 
 <div style="text-align: justify">
@@ -10,11 +6,11 @@ When we try to plot a complex variable function we encounter a first problem: we
 In this post I show a small compilation of some methods that can be used to solve this problem. These methods are:
 </div>
 
-- Plotting the function's module.
-- Plotting the real and imaginary part.
-- Domain coloring.
-- Conformal mapping.
-- Plotting as a vector field.
+- [Plotting the function's module.](plotting-the-function's-module)
+- [Plotting the real and imaginary part.](plotting-the-real-and-imaginary-part)
+- [Domain coloring.](domain-coloring)
+- [Conformal mapping.](conformal-mapping)
+- [Plotting as a vector field.](plotting-as-a-vector-field)
 
 <div style="text-align: justify">
 All the examples will be included with their respective <b>Python 3</b> code.
