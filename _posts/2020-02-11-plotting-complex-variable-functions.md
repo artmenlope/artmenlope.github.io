@@ -330,7 +330,6 @@ $$
 <div style="text-align: justify">
 We would be representing the contour lines as if we were in the real plane $\mathbb{R}^2$. For example we take the function $f(z)=z+\frac{1}{z}$, with $z = x+iy$ where $x=\mbox{Re} \, z$ and $y=\mbox{Im} \, z$ and $\overline{z} = x-iy $ is the complex conjugate of $z$:
 </div>
-
 <br>
 <div style="text-align: center">
 $$
@@ -344,7 +343,6 @@ f(z) & =z+\frac{1}{z} = \\[2ex]
 $$
 </div>
 <br>
-
 
 ```python
 def f(z):
