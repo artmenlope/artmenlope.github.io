@@ -332,7 +332,7 @@ We would be representing the contour lines as if we were in the real plane $\mat
 </div>
 
 <br>
-
+<div style="text-align: center">
 $$
 \begin{split}
 f(z) & =z+\frac{1}{z} = \\[2ex]
@@ -341,8 +341,8 @@ f(z) & =z+\frac{1}{z} = \\[2ex]
 & = \left( x + \frac{x}{x^2+y^2} \right) + i \left( y - \frac{y}{x^2+y^2} \right) = \\[2ex]
 & = \mbox{Re} f(z) + i \, \mbox{Im} f(z)
 \end{split}
-$${: .align-center}
-
+$$
+</div>
 <br>
 
 
