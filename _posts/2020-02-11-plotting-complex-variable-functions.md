@@ -468,6 +468,10 @@ In this figure we can see that the real part of $\cos z$ has zeros at the points
 
 $$|\vec{v}| = \sqrt{(\mbox{Re} f(z))^2 + (\mbox{Im} f(z))^2} = |f(z)|$$
 
+<br>
+___
+<br>
+
 # References
 
 - C. Fernández González (n.d.). _¿Cómo representar funciones en variable compleja?_ [online]. Portal.uned.es. Available at: [http://portal.uned.es/pls/portal/docs/PAGE/UNED_MAIN/LAUNIVERSIDAD/<br/>
