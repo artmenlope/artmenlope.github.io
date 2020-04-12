@@ -472,6 +472,7 @@ $$|\vec{v}| = \sqrt{(\mbox{Re} f(z))^2 + (\mbox{Im} f(z))^2} = |f(z)|$$
 
 ***
 
+<br>
 
 # References
 
