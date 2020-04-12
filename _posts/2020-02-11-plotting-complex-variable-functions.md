@@ -469,7 +469,9 @@ In this figure we can see that the real part of $\cos z$ has zeros at the points
 $$|\vec{v}| = \sqrt{(\mbox{Re} f(z))^2 + (\mbox{Im} f(z))^2} = |f(z)|$$
 
 <br>
-___
+
+***
+
 <br>
 
 # References
