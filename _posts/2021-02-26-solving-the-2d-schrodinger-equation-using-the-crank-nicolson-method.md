@@ -20,7 +20,7 @@ modified: '2021-02-25T23:09:40.883Z'
 
 ## Introduction
 
-In this post we will learn to solve the 2D schrödinger equation using the Crank-Nicolson numerical method. It is important to note that this method is computationally expensive, but it is more precise and more stable than other low-order time-stepping methods [1]. It calculates the time derivative with a central finite differences approximation [1].
+In this post we will learn to solve the 2D schrödinger equation using the Crank-Nicolson numerical method. It is important to note that this method is computationally expensive, but it is more precise and more stable than other low-order time-stepping methods [[1]](#References). It calculates the time derivative with a central finite differences approximation [[1]](#References).
 
 ## Spatial and temporal discretization
 
@@ -37,13 +37,13 @@ We will also consider $N_t$ time points and a time step of size  $\Delta t$. The
 
 ## The Crank-Nicolson method
 
-To obtain the essential formula of the Crank-Nicolson method we must first take a look at the "forward Euler" and "backward Euler" methods. If we consider the time derivative of a function $\psi$ as a function of $F$ discretized on the 2D plane, the derivative will be discretized by the "forward Euler" method as follows [2]:
+To obtain the essential formula of the Crank-Nicolson method we must first take a look at the "forward Euler" and "backward Euler" methods. If we consider the time derivative of a function $\psi$ as a function of $F$ discretized on the 2D plane, the derivative will be discretized by the "forward Euler" method as follows [[2]](#References):
 
 $$
 \frac{\psi^{n+1}_{i,j} - \psi^n_{i,j}}{\Delta t} = F^n_{i,j}\,.
 $$
 
-In the "backward Euler" method, the time derivative is discretized as [2]:
+In the "backward Euler" method, the time derivative is discretized as [[2]](#References):
 
 $$
 \frac{\psi^{n+1}_{i,j} - \psi^n_{i,j}}{\Delta t} = F^{n+1}_{i,j}\,.
@@ -88,7 +88,7 @@ V(x,y,z) \, \psi(x,y,z) = \frac{1}{2} \left[V^{n+1}_{i,j} \psi^{n+1}_{i,j} + V^{
 \end{array}
 $$
 
-Then, we can substitute these expressions into the Schrödinger equation. We might also multiply both sides of the resulting equation by $\Delta t / i$. Then we should have the $\psi^{n+1}_{i,j} - \psi^n_{i,j}$ terms remaining on the left side of the equation. For the sake of simplicity, we now define the following constants:
+Then, we can substitute these expressions into the Schrödinger equation. We might also multiply both sides of the resulting equation by $\Delta t / i$. Then we should have the $\psi_{i,j}^{n+1} - \psi_{i,j}^n$ terms remaining on the left side of the equation. For the sake of simplicity, we now define the following constants:
 
 $$
 r_x = -\frac{\Delta t}{2i(\Delta x)^2} \;, \quad r_y = -\frac{\Delta t}{2i(\Delta y)^2} \;.
@@ -106,12 +106,15 @@ $$
 We can simplify this expression even more if we define the values 
 
 $$
-    a_{ij} = \left(1+2r_x +2r_y + i \frac{\Delta t}{2} V^{n+1}_{i,j}\right) 
+    a_{ij} = \left(1+2r_x +2r_y + i \frac{\Delta t}{2} V_{i,j}^{n+1}\right) 
 $$
+
 for the left side of the equation and 
+
 $$    
     b_{ij} = \left(1-2r_x -2r_y - i \frac{\Delta t}{2} V^{n}_{i,j}\right)
 $$
+
 for the right side of the equation.
 
 Then, we have obtained that the evolution of the wave function can be given by the formula
@@ -130,12 +133,14 @@ This last formula can make us want to express the problem as a matrix equation o
 We will consider that our problem is restricted to a square 2D box (like in **Fig.1**) with the boundary condition of having that the wave function $\psi$ is zero at the edges of the box, that is, $\psi^n_{0,j}=\psi^n_{i,0}=\psi^n_{N-1,j}=\psi^n_{i,N-1}=0$, where $N$ was the number of points on each axis and therefore $N-1$ is the maximum value of the indices.
 
 With this last consideration we can use the last formula of the Schrödinger equation section 
+
 $$
 \begin{array}{l}
     -r_y \psi^{n+1}_{i+1,j} -r_y \psi^{n+1}_{i-1,j} + a_{i,j}\psi^{n+1}_{i,j} - r_x \psi^{n+1}_{i,j+1} - r_x\psi^{n+1}_{i,j-1} = \\[2ex]
     = r_y \psi^{n}_{i+1,j} +r_y \psi^{n}_{i-1,j} + b_{i,j} \psi^{n}_{i,j} + r_x \psi^{n}_{i,j+1} + r_x\psi^{n}_{i,j-1} 
 \end{array}
 $$
+
 to create $\textbf{A}$ and $\textbf{x}$ from the left side of the equation considering the boundary conditions:
 
 $$
@@ -295,6 +300,7 @@ The cases that we are going to study are: the case when the double slit walls ar
 ### The Gaussian wave packet
 
 Now, the next step is to propose an initial wave function $\psi(t=0)$. For simplicity, we will consider the wave function in the initial state to be in the form of a Gaussian wavepacket. An unnormalized 1D Gaussian wavepacket centered at $x_0$ has the form
+
 $$
  e^{-\frac{1}{2\sigma^2}(x-x_0)^2} \,,
 $$
@@ -307,7 +313,7 @@ $$
 \psi(x,y,t=0) = e^{-\frac{1}{2\sigma^2}\left[(x-x_0)^2+(y-y_0)^2\right]} \cdot e^{-ik(x-x_0)} \,.
 $$
 
-Here, we have considered that the standard deviation of the gaussian packet is the same in both $x$ and $y$ directions ($\sigma_x = \sigma_y = \sigma$). We have also introduced an additional $e^{-ik(x-x_0)}$ complex phase term with the purpose of giving initial movement to the wavepacket in the positive $x$ direction [3]. In this new term, the wavenumber $k$ is proportional to the initial momentum $p_0$ of the wavepacket, this proportionality relationship is given by the reduced Plank's constant $\hbar$ in the form of the expression $p_0=\hbar k$ [3].
+Here, we have considered that the standard deviation of the gaussian packet is the same in both $x$ and $y$ directions ($\sigma_x = \sigma_y = \sigma$). We have also introduced an additional $e^{-ik(x-x_0)}$ complex phase term with the purpose of giving initial movement to the wavepacket in the positive $x$ direction [3]. In this new term, the wavenumber $k$ is proportional to the initial momentum $p_0$ of the wavepacket, this proportionality relationship is given by the reduced Plank's constant $\hbar$ in the form of the expression $p_0=\hbar k$ [[3]](#References).
 
 ### The structure of the program.
 
@@ -368,7 +374,7 @@ $$
 
 ---
 
-For further comparison of the results with other animations, there is an animation of a double slit experiment with hard walls uploaded to Wikimedia available at: 
+For further comparison of the results with other animations, there is an animation of a double slit experiment with hard walls uploaded to Wikimedia available at [[4]](#References): 
 
 - [https://commons.wikimedia.org/w/index.php?title=File%3ADouble_slit_experiment.webm](https://commons.wikimedia.org/w/index.php?title=File%3ADouble_slit_experiment.webm)
 
