@@ -4,8 +4,6 @@ created: '2021-02-04T21:54:53.008Z'
 modified: '2021-02-25T23:09:40.883Z'
 ---
 
-# Solving the 2D Schrödinger equation using the Crank-Nicolson method
-
 ## Table of contents
 
 - [Introduction](#Introduction)
@@ -29,7 +27,7 @@ In this post we will learn to solve the 2D schrödinger equation using the Crank
 For this problem we will consider a 2-dimensional spatial grid (the $xy$ plane) of $N$ points in the $x$ direction and $N$ points in the $y$ direction. We will also consider that the $x$ and $y$ components of each point $(x, y)$ on the 2D grid are given by $x = j \cdot \Delta x$  and $y = i \cdot \Delta y$, where $i$ and $j$ are integer indices equal or greater than $0$ ($i,j = 0,1,2, \dots ,N-1$) and $\Delta x$ and $\Delta y$ are the spacing between the points on the axes of the grid. For simplicity, we will define $\Delta x$ and $\Delta y$ so that $\Delta x = \Delta y$.
 
 <p align="center">
-<img src="file:///home/arml/Documentos/GitHub/CrankNicolson/grid_picture.png" width="60%">
+<img src="/assets/images/2021-02-26/grid_picture.png" width="60%">
 <br>
 <b>Fig.1</b>: Points of the spatial 2D grid and its $i$ and $j$ indices as 2D Numpy array indices.
 </p>
@@ -74,7 +72,7 @@ $$
 To discretize this equation we should remember the relationship between the indices of a 2D Numpy array and the orientation of the Cartesian axes in the Matplotlib plot. If $i$ is the row index and $j$ is the column index, we have that the relationship is
 
 <p align="center">
-<img src="file:///home/arml/Documentos/GitHub/CrankNicolson/indices_drawing.png" width="60%">
+<img src="/assets/images/2021-02-26/indices_drawing.png" width="60%">
 <br>
 <b>Fig.2</b>: Relationship between the 2D Numpy array indices and the $xy$ axes orientation.
 </p>
@@ -279,7 +277,7 @@ To study the problem of the double slit, we first need to parametrize the slits 
 We define the double slit using the $i$ and $j$ indices on the grid of space points. We will also use some parameters like the width $w$ of the slit walls, the separation $s$ between slits and their aperture $a$. We can see all this more easily in the following diagram:
 
 <p align="center">
-<img src="file:///home/arml/Documentos/GitHub/CrankNicolson/doubleSlit/double_slit_drawing.png" width="50%">
+<img src="/assets/images/2021-02-26/double_slit_drawing.png" width="50%">
 <br>
 <b>Fig.3</b>: Parametrization of the double slit walls within our simulation box.
 </p>
@@ -287,7 +285,7 @@ We define the double slit using the $i$ and $j$ indices on the grid of space poi
 The cases that we are going to study are: the case when the double slit walls are infinite potential walls and the case when the double slit walls are finite potential barriers. We can see more details of this in the following pictures:
 
 <p align="center">
-<img src="file:///home/arml/Documentos/GitHub/CrankNicolson/doubleSlit/hardwalls.png" width="45%"> <img src="file:///home/arml/Documentos/GitHub/CrankNicolson/doubleSlit/potbarrier.png" width="45%">
+<img src="/assets/images/2021-02-26/hardwalls.png" width="45%"> <img src="/assets/images/2021-02-26/potbarrier.png" width="45%">
 <br>
 <p align="left">
 <b>Fig.4</b>: In the left image we can see that the wave function $\psi$ can't pass through the infinite potential wall, we have that for this case the wave function is zero inside the walls. In the image on the right we see how in this case part of the wave function manages to cross the wall of finite potential of height $V_0$.
@@ -335,7 +333,7 @@ Now the results from the calculations will be shown. In this section we can watc
 In this case we can see an animation of a Gaussian wavepacket passing trough a double slit with hard walls. The edges of the simulation box are hard walls too.
 
 <p align="center">
-<video src="file:///home/arml/Documentos/GitHub/CrankNicolson/2Slit-hardWalls-Schro2d-v1.mp4" width="80%" controls preload>
+<video src="/assets/images/2021-02-26/2Slit-hardWalls-Schro2d-v1.mp4" width="80%" controls preload>
 </p>
 
 The parameters used for this simulation are
@@ -354,7 +352,7 @@ $$
 In this other case, the following animation is the animation of a gaussian wavepacket passing trough a double slit with potential barrier walls of height $V_0=200$. The edges of the simulation box are hard walls again.
 
 <p align="center">
-<video src="file:///home/arml/Documentos/GitHub/CrankNicolson/2Slit-potBarrierV0-Schro2d-v1.mp4" width="80%" controls preload> 
+<video src="/assets/images/2021-02-26/2Slit-potBarrierV0-Schro2d-v1.mp4" width="80%" controls preload> 
 </p>
 
 The parameters used for this simulation are
