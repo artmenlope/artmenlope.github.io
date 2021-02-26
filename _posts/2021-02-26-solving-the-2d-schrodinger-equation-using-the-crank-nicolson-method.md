@@ -20,7 +20,9 @@ modified: '2021-02-25T23:09:40.883Z'
 
 ## Introduction
 
-In this post we will learn to solve the 2D schrödinger equation using the Crank-Nicolson numerical method. It is important to note that this method is computationally expensive, but it is more precise and more stable than other low-order time-stepping methods [[1]](#References). It calculates the time derivative with a central finite differences approximation [[1]](#References).
+In this post we will learn to solve the 2D schrödinger equation using the Crank-Nicolson numerical method. It is important to note that this method is computationally expensive, but it is more precise and more stable than other low-order time-stepping methods [[1]](#References). It calculates the time derivative with a central finite differences approximation [[1]](#References). 
+
+The code, images and animations of this post can be found in the [double-slit-2d-schrodinger](https://github.com/artmenlope/double-slit-2d-schrodinger) GitHub repository.
 
 ## Spatial and temporal discretization
 
@@ -332,7 +334,7 @@ In the Python script we will perform the following main steps:
 
 ### Results
 
-Now the results from the calculations will be shown. In this section we can watch the resulting animations and values of the parameters used.
+Now the results from the calculations will be shown. In this section we can watch the resulting animations. The values of the parameters used are also indicated. It is worth remembering that the code and the animations can be found in the [double-slit-2d-schrodinger](https://github.com/artmenlope/double-slit-2d-schrodinger) GitHub repository.
 
 **The infinite potential barrier case**
 
