@@ -344,7 +344,7 @@ In this case we can see an animation of a Gaussian wavepacket passing trough a d
 </p>
 -->
 
-![anim1](https://github.com/artmenlope/artmenlope.github.io/blob/master/assets/images/2021-02-26/2Slit-hardWalls-Schro2d-v1.gif)
+![](https://github.com/artmenlope/artmenlope.github.io/blob/master/assets/images/2021-02-26/2Slit-hardWalls-Schro2d-v1.gif)
 
 
 The parameters used for this simulation are
@@ -367,7 +367,7 @@ In this other case, the following animation is the animation of a gaussian wavep
 <img src="/assets/images/2021-02-26/2Slit-potBarrierV0-Schro2d-v1.gif" width="80%" controls preload> 
 </p>
 -->
-![anim2](https://github.com/artmenlope/artmenlope.github.io/blob/master/assets/images/2021-02-26/2Slit-potBarrierV0-Schro2d-v1.gif)
+![](https://github.com/artmenlope/artmenlope.github.io/blob/master/assets/images/2021-02-26/2Slit-potBarrierV0-Schro2d-v1.gif)
 
 The parameters used for this simulation are
 
