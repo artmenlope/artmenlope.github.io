@@ -93,9 +93,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Arturo"
+  name             : "Arturo Mena"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : Undergraduate physics student. #"I am an **amazing** person."
+  bio              : Physics student at the University of Alicante. #"I am an **amazing** person."
   location         : #"Earth"
   email            :
   links:
