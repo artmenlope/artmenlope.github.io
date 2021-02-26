@@ -1,5 +1,7 @@
 ---
 title: Solving the 2D Schrödinger equation using the Crank-Nicolson method
+toc: true
+toc_label: "Table of contents"
 created: '2021-02-04T21:54:53.008Z'
 modified: '2021-02-25T23:09:40.883Z'
 ---
