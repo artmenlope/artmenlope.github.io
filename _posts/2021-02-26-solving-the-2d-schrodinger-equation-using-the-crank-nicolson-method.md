@@ -20,7 +20,7 @@ modified: '2021-02-25T23:09:40.883Z'
 
 ## Introduction
 
-In this post we will learn to solve the 2D schrödinger equation using the Crank-Nicolson numerical method. It is important to note that this method is computationally expensive, but it is more precise and more stable than other low-order time-stepping methods [[1]](#References). It calculates the time derivative with a central finite differences approximation [[1]](#References).
+In this post we will learn to solve the 2D schrödinger equation using the Crank-Nicolson numerical method. It is important to note that this method is computationally expensive, but it is more precise and more stable than other low-order time-stepping methods [[1]](##References). It calculates the time derivative with a central finite differences approximation [[1]](#References).
 
 ## Spatial and temporal discretization
 
@@ -360,6 +360,8 @@ In this other case, the following animation is the animation of a gaussian wavep
 <p align="center">
 <video src="/assets/images/2021-02-26/2Slit-potBarrierV0-Schro2d-v1.mp4" width="80%" controls preload> 
 </p>
+
+![video2](/assets/images/2021-02-26/2Slit-potBarrierV0-Schro2d-v1.mp4)
 
 The parameters used for this simulation are
 
