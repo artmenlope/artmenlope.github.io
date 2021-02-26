@@ -334,16 +334,13 @@ In the Python script we will perform the following main steps:
 
 Now the results from the calculations will be shown. In this section we can watch the resulting animations and values of the parameters used.
 
-#### The infinite potential barrier case
+**The infinite potential barrier case**
 
 In this case we can see an animation of a Gaussian wavepacket passing trough a double slit with hard walls. The edges of the simulation box are hard walls too.
 
-
 <p align="center">
-<video src="https://github.com/artmenlope/artmenlope.github.io/blob/master/assets/images/2021-02-26/2Slit-hardWalls-Schro2d-v1.mp4" width="80%">
+<video src="/assets/images/2021-02-26/2Slit-hardWalls-Schro2d-v1.mp4" width="80%">
 </p>
-
-
 
 The parameters used for this simulation are
 
@@ -356,13 +353,12 @@ dt = dx^2/4 & k_x = 15 \pi
 $$
 
 
-#### The finite potential barrier case
+**The finite potential barrier case**
 
 In this other case, the following animation is the animation of a gaussian wavepacket passing trough a double slit with potential barrier walls of height $V_0=200$. The edges of the simulation box are hard walls again.
 
-
 <p align="center">
-<video src="https://github.com/artmenlope/artmenlope.github.io/blob/master/assets/images/2021-02-26/2Slit-potBarrierV0-Schro2d-v1.mp4" width="80%"> 
+<video src="/assets/images/2021-02-26/2Slit-potBarrierV0-Schro2d-v1.mp4" width="80%"> 
 </p>
 
 The parameters used for this simulation are
