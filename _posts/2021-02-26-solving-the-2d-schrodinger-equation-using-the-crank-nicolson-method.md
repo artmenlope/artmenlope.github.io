@@ -343,7 +343,7 @@ In this case we can see an animation of a Gaussian wavepacket passing trough a d
 <video src="/assets/images/2021-02-26/2Slit-hardWalls-Schro2d-v1.mp4" width="80%" controls preload>
 </p>
 -->
-<video src="/assets/images/2021-02-26/2Slit-hardWalls-Schro2d-v1.mp4" width="80%" controls preload class="center">{: .align-center}
+
 
 The parameters used for this simulation are
 
@@ -365,7 +365,7 @@ In this other case, the following animation is the animation of a gaussian wavep
 <video src="/assets/images/2021-02-26/2Slit-potBarrierV0-Schro2d-v1.mp4" width="80%" controls preload> 
 </p>
 -->
-<video src="/assets/images/2021-02-26/2Slit-potBarrierV0-Schro2d-v1.mp4" width="80%" controls preload class="center">{: .align-center}
+![](/assets/images/2021-02-26/2Slit-potBarrierV0-Schro2d-v1.mp4)
 
 The parameters used for this simulation are
 
