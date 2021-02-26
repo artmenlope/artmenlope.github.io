@@ -389,11 +389,10 @@ For further comparison of the results with other animations, there is an animati
 
 [1] Landau, R.H., José Páez Mejía Manuel & Bordeianu, C.C., 2015. _"Heat Flow via Time Stepping"_. In: _"Computational physics: problem solving with Python"_, 3rd ed. Weinheim: Wiley-VCH. 
 
-[2] Wikipedia, 2021. _"Crank–Nicolson method"_. [Last time accessed January 2021] Available at: https://en.wikipedia.org/wiki/Crank%E2%80%93Nicolson_method
+[2] Wikipedia, 2021. _"Crank–Nicolson method"_. [Last time accessed January 2021] Available at: [https://en.wikipedia.org/wiki/Crank%E2%80%93Nicolson_method](https://en.wikipedia.org/wiki/Crank%E2%80%93Nicolson_method)
 
 <!--[2] Prof. Calera Rubio, J., 2021. _"EDP Parabólicas"_ (class notes). Computational Physics, Physics Degree, University of Alicante.-->
 
-[3] Wheeler, N., 1998. _"Gaussian Wavepackets"_. Available at: https://www.reed.edu/physics/faculty/wheeler/documents/ 
+[3] Wheeler, N., 1998. _"Gaussian Wavepackets"_. Available at: [https://www.reed.edu/physics/faculty/wheeler/documents/](https://www.reed.edu/physics/faculty/wheeler/documents/)
 
-[4] Wikipedia, 2021. _"Double-slit experiment"_. [Last time accessed January 2021] Available at: https://en.wikipedia.org/wiki/Double-slit_experiment
-
+[4] Wikipedia, 2021. _"Double-slit experiment"_. [Last time accessed January 2021] Available at: [https://en.wikipedia.org/wiki/Double-slit_experiment](https://en.wikipedia.org/wiki/Double-slit_experiment)
