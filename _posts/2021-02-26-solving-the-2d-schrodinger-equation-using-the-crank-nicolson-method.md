@@ -339,7 +339,7 @@ Now the results from the calculations will be shown. In this section we can watc
 In this case we can see an animation of a Gaussian wavepacket passing trough a double slit with hard walls. The edges of the simulation box are hard walls too.
 
 <p align="center">
-<source src="/assets/images/2021-02-26/2Slit-hardWalls-Schro2d-v1.mp4" width="80%" type="video/mp4" controls preload>
+<source src="/assets/images/2021-02-26/2Slit-hardWalls-Schro2d-v1.mp4" width="80%" type="video/mp4">
 </p>
 
 The parameters used for this simulation are
@@ -358,7 +358,7 @@ $$
 In this other case, the following animation is the animation of a gaussian wavepacket passing trough a double slit with potential barrier walls of height $V_0=200$. The edges of the simulation box are hard walls again.
 
 <p align="center">
-<source src="/assets/images/2021-02-26/2Slit-potBarrierV0-Schro2d-v1.mp4" width="80%" type="video/mp4" controls preload>
+<source src="/assets/images/2021-02-26/2Slit-potBarrierV0-Schro2d-v1.mp4" width="80%" type="video/mp4">
 </p>
 
 The parameters used for this simulation are
