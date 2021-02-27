@@ -387,7 +387,7 @@ For further comparison of the results with other animations, there is an animati
 ## References
 
 
-[1] Landau, R.H., José Páez Mejía Manuel & Bordeianu, C.C., 2015. _"Heat Flow via Time Stepping"_. In: _"Computational physics: problem solving with Python"_, 3rd ed. Weinheim: Wiley-VCH. 
+[1] Landau, R.H., Páez Mejía, M.J. & Bordeianu, C.C., 2015. _"Heat Flow via Time Stepping"_. In: _"Computational physics: problem solving with Python"_, 3rd ed. Weinheim: Wiley-VCH. 
 
 [2] Wikipedia, 2021. _"Crank–Nicolson method"_. [Last time accessed January 2021] Available at: [https://en.wikipedia.org/wiki/Crank%E2%80%93Nicolson_method](https://en.wikipedia.org/wiki/Crank%E2%80%93Nicolson_method)
 
