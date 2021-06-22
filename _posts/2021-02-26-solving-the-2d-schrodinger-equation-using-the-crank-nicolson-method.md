@@ -284,7 +284,7 @@ To study the problem of the double slit, we first need to parametrize the slits 
 We define the double slit using the $i$ and $j$ indices on the grid of space points. We will also use some parameters like the width $w$ of the slit walls, the separation $s$ between slits and their aperture $a$. We can see all this more easily in the following diagram:
 
 <p align="center">
-<img src="/assets/images/2021-02-26/double_slit_drawing.png" width="50%">
+<img src="/assets/images/2021-02-26/double_slit_drawing.svg" width="50%">
 <br>
 <b>Fig.3</b>: Parametrization of the double slit walls within our simulation box.
 </p>
