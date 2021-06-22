@@ -203,10 +203,10 @@ $$
 
 To check if the expressions obtained for the matrix $\textbf{A}$ and the column vector $\textbf{x}$ are correct, we can multiply $\textbf{A}$ and $\textbf{x}$ to obtain another column vector. This new column vector should have in each row expressions like the left side of our original formula. 
 
-Now, to leave the elements of the $\textbf{x}$ column vector as a function of one only lower index, we can define a new index
+Because the boundary conditions are set to zero at all time steps, we restrict the calculations to the indices $i,j=1,2,...,N-2$. Therefore, to leave the elements of the $\textbf{x}$ column vector as a function of one only lower index, we can define a new index
 
 $$
-k = (i-1)(N-2) + (j-1)
+k = (j-1)(N-2) + (i-1)
 $$
 
 so that $\psi^n_{i,j} = \psi^n_{k}$. Then, we can write $\textbf{A} \cdot \textbf{x}$ as 
@@ -224,7 +224,7 @@ a_{0} & -r_x & 0 & 0 &\cdots & 0 & -r_y & 0 & 0 & \cdots & 0 \\[1ex]
 0&-r_y&&&&&&&&&\\[1ex]
 0& 0&-r_y&&&&&&&\ddots&\\[1ex]
 \vdots& \vdots&&\ddots&&&&&\ddots&\ddots&-r_x\\[1ex]
-0&0&&&&&&&&-r_x&a_{(N-1)^2} 
+0&0&&&&&&&&-r_x&a_{(N-3)(N-1)} 
 \end{pmatrix}
 \begin{pmatrix}
 \psi^{n+1}_0\\[1ex]
@@ -237,7 +237,7 @@ a_{0} & -r_x & 0 & 0 &\cdots & 0 & -r_y & 0 & 0 & \cdots & 0 \\[1ex]
 \\[1ex]
 \vdots\\[1ex]
 \\[1ex]
-\psi^{n+1}_{(N-1)^2} 
+\psi^{n+1}_{(N-3)(N-1)} 
 \end{pmatrix}
 $$
 
@@ -256,7 +256,7 @@ r_y&0&&&&&&&&&\\[1ex]
 0&r_y&&&&&&&&&\\[1ex]
 0& 0&r_y&&&&&&&\ddots&\\[1ex]
 \vdots& \vdots&&\ddots&&&&&\ddots&\ddots&r_x\\[1ex]
-0&0&&&&&&&&r_x&b_{(N-1)^2}
+0&0&&&&&&&&r_x&b_{(N-3)(N-1)}
 \end{pmatrix}
 \begin{pmatrix}
 \psi^{n}_0\\[1ex]
@@ -269,7 +269,7 @@ r_y&0&&&&&&&&&\\[1ex]
 \\[1ex]
 \vdots\\[1ex]
 \\[1ex]
-\psi^{n}_{(N-1)^2}
+\psi^{n}_{(N-3)(N-1)}
 \end{pmatrix}
 $$
 
