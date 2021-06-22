@@ -6,17 +6,17 @@ modified: '2021-02-25T23:09:40.883Z'
 
 ## Table of contents
 
-- [Introduction](#Introduction)
-- [Spatial and temporal discretization](#Spatial-and-temporal-discretization)
-- [The Crank-Nicolson method](#The-Crank-Nicolson-method)
-  - [Discretization of the Schrödinger equation](#Discretization-of-the-Schrödinger-equation)
-  - [Switching to the matrix form](#Switching-to-the-matrix-form)
-- [The double slit problem](#The-double-slit-problem)
+- [Introduction](#introduction)
+- [Spatial and temporal discretization](#spatial-and-temporal-discretization)
+- [The Crank-Nicolson method](#the-Crank-Nicolson-method)
+  - [Discretization of the Schrödinger equation](#discretization-of-the-Schrödinger-equation)
+  - [Switching to the matrix form](#switching-to-the-matrix-form)
+- [The double slit problem](#the-double-slit-problem)
   - [The double slit parametrization](#The-double-slit-parametrization)
-  - [The Gaussian wave packet](#The-Gaussian-wave-packet)
-  - [The structure of the program](#The-structure-of-the-program)
-  - [Results](#Results)
-- [References](#References)
+  - [The Gaussian wave packet](#the-Gaussian-wave-packet)
+  - [The structure of the program](#the-structure-of-the-program)
+  - [Results](#results)
+- [References](#references)
 
 ## Introduction
 
@@ -224,7 +224,7 @@ a_{0} & -r_x & 0 & 0 &\cdots & 0 & -r_y & 0 & 0 & \cdots & 0 \\[1ex]
 0&-r_y&&&&&&&&&\\[1ex]
 0& 0&-r_y&&&&&&&\ddots&\\[1ex]
 \vdots& \vdots&&\ddots&&&&&\ddots&\ddots&-r_x\\[1ex]
-0&0&&&&&&&&-r_x&a_{(N-2)(N-1)} 
+0&0&&&&&&&&-r_x&a_{(N-1)^2} 
 \end{pmatrix}
 \begin{pmatrix}
 \psi^{n+1}_0\\[1ex]
@@ -237,7 +237,7 @@ a_{0} & -r_x & 0 & 0 &\cdots & 0 & -r_y & 0 & 0 & \cdots & 0 \\[1ex]
 \\[1ex]
 \vdots\\[1ex]
 \\[1ex]
-\psi^{n+1}_{(N-2)(N-1)} 
+\psi^{n+1}_{(N-1)^2} 
 \end{pmatrix}
 $$
 
@@ -256,7 +256,7 @@ r_y&0&&&&&&&&&\\[1ex]
 0&r_y&&&&&&&&&\\[1ex]
 0& 0&r_y&&&&&&&\ddots&\\[1ex]
 \vdots& \vdots&&\ddots&&&&&\ddots&\ddots&r_x\\[1ex]
-0&0&&&&&&&&r_x&b_{(N-2)(N-1)}
+0&0&&&&&&&&r_x&b_{(N-1)^2}
 \end{pmatrix}
 \begin{pmatrix}
 \psi^{n}_0\\[1ex]
@@ -269,7 +269,7 @@ r_y&0&&&&&&&&&\\[1ex]
 \\[1ex]
 \vdots\\[1ex]
 \\[1ex]
-\psi^{n}_{(N-2)(N-1)}
+\psi^{n}_{(N-1)^2}
 \end{pmatrix}
 $$
 
