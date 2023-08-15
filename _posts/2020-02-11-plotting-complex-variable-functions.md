@@ -3,6 +3,8 @@ title: Plotting complex variable functions
 created: '2020-02-11T21:54:53.008Z'
 modified: '2020-04-12T22:09:40.883Z'
 author_profile: false
+toc: true
+toc_sticky: true
 ---
 
 <!-- # Plotting complex variable functions -->
