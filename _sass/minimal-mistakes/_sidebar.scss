@@ -324,6 +324,31 @@
    Wide Pages
    ========================================================================== */
 
+
+.wide .sidebar__right {
+  margin-bottom: 1em;
+
+  @include breakpoint($large) {
+    position: initial;
+    top: initial;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+    padding-right: initial;
+    z-index: initial;
+
+    &.sticky {
+      float: left;
+    }
+  }
+
+  @include breakpoint($x-large) {
+    width: initial;
+    margin-left: initial;
+  }
+}
+
+/* ======OLD SIDEBAR__RIGHT========
 .wide .sidebar__right {
   margin-bottom: 1em;
 
@@ -346,4 +371,4 @@
     margin-right: initial;
   }
 }
-
+*/
