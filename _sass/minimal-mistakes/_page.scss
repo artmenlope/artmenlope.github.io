@@ -54,8 +54,10 @@ body {
     margin-right: 0;
     width: 100%;
     clear: both;
-
-    .page__content,
+    /*.page__content,*/
+	/* I ADDED THIS, THE ORIGINAL WAS THE LINE ABOVE */
+    .page__content {float: left;
+	  },
     .page__meta,
     .page__share {
       position: relative;
