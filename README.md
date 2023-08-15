@@ -1,7 +1,3 @@
-# Singularities
-
-Welcome to my [blog](https://artmenlope.github.io/)!
-
-This blog is mainly about curious things related to mathematics, physics and programming, among other things.
+Welcome to my [personal website](https://artmenlope.github.io/).
 
 It has been built using the [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) Jekyll theme created by [Michael Rose](https://github.com/mmistakes). 
