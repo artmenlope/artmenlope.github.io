@@ -2,8 +2,6 @@
 main:
 - title: "Home"
   url: "https://artmenlope.github.io/"
-- title: "About"
-  url: 
 - title: "Papers"
   url: "https://scholar.google.com/citations?user=ekaiL6kAAAAJ"
 - title: "Posts"
