@@ -8,6 +8,7 @@ toc_sticky: true
 toc_label: "Table of Contents"
 ---
 
+<!--
 ## Table of contents
 
 - [Introduction](#introduction)
@@ -21,6 +22,7 @@ toc_label: "Table of Contents"
   - [The structure of the program](#the-structure-of-the-program)
   - [Results](#results)
 - [References](#references)
+-->
 
 ## Introduction
 
