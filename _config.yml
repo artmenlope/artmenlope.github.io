@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -95,29 +95,29 @@ analytics:
 author:
   name             : "Arturo Mena"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Physics PhD student at the University of the Basque Country" #"I am an **amazing** person."
+  bio              : "Physics PhD student at UPV/EHU" #"I am an **amazing** person."
   location         : #"Earth"
-  email            :
+  email            : "artmenlope@gmail.com"
   links:
-    #- label: "Email"
-      #icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Blog"
-      icon: "fas fa-fw fa-link"
-      url: "https://artmenlope.github.io/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/artmenlope"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/arturo-mena-l%C3%B3pez-b949ba209/"
+    #- label: "Email"
+      #icon: "fas fa-fw fa-envelope-square"
+      # url: mailto:your.name@email.com
+    #- label: "Blog"
+      #icon: "fas fa-fw fa-link"
+      #url: "https://artmenlope.github.io/"
 
 # Site Footer
 footer:
   links:
-    - label: "Blog"
-      icon: "fas fa-fw fa-link"
-      url: "https://artmenlope.github.io/"
+    #- label: "Blog"
+      #icon: "fas fa-fw fa-link"
+      #url: "https://artmenlope.github.io/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/artmenlope"
