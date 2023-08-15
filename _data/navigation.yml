@@ -4,8 +4,6 @@ main:
   url: "https://artmenlope.github.io/"
 - title: "Papers"
   url: "https://scholar.google.com/citations?user=ekaiL6kAAAAJ"
-- title: "Posts"
-  url: "https://artmenlope.github.io/"
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
