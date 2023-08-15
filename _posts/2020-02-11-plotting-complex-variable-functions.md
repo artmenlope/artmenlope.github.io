@@ -5,6 +5,7 @@ modified: '2020-04-12T22:09:40.883Z'
 author_profile: false
 toc: true
 toc_sticky: true
+toc_label: "Table of Contents"
 ---
 
 <!-- # Plotting complex variable functions -->
