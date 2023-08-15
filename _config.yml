@@ -124,9 +124,6 @@ footer:
     #- label: "Blog"
       #icon: "fas fa-fw fa-link"
       #url: "https://artmenlope.github.io/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/artmenlope"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/arturo-mena-l%C3%B3pez-b949ba209/"
@@ -136,7 +133,9 @@ footer:
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=ekaiL6kAAAAJ"
-
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/artmenlope"
 
 # Reading Files
 include:
