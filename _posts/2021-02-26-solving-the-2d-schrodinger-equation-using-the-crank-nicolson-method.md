@@ -8,22 +8,6 @@ toc_sticky: true
 toc_label: "Table of Contents"
 ---
 
-<!--
-## Table of contents
-
-- [Introduction](#introduction)
-- [Spatial and temporal discretization](#spatial-and-temporal-discretization)
-- [The Crank-Nicolson method](#the-Crank-Nicolson-method)
-  - [Discretization of the Schrödinger equation](#discretization-of-the-Schrödinger-equation)
-  - [Switching to the matrix form](#switching-to-the-matrix-form)
-- [The double slit problem](#the-double-slit-problem)
-  - [The double slit parametrization](#The-double-slit-parametrization)
-  - [The Gaussian wave packet](#the-Gaussian-wave-packet)
-  - [The structure of the program](#the-structure-of-the-program)
-  - [Results](#results)
-- [References](#references)
--->
-
 ## Introduction
 
 In this post we will learn to solve the 2D schrödinger equation using the Crank-Nicolson numerical method. It is important to note that this method is computationally expensive, but it is more precise and more stable than other low-order time-stepping methods [[1]](#References). It calculates the time derivative with a central finite differences approximation [[1]](#References). 
