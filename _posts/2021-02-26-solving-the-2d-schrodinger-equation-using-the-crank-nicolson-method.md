@@ -7,6 +7,8 @@ toc: true
 toc_sticky: true
 toc_label: "Table of Contents"
 toc_icon: "fas fa-list-ul"
+header:
+  overlay_color: "#333"
 ---
 
 
