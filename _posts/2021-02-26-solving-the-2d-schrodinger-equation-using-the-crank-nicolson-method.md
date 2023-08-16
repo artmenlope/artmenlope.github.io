@@ -9,8 +9,8 @@ toc_label: "Table of Contents"
 toc_icon: "fas fa-list-ul"
 ---
 
-
-
+<script src="/assets/js/plugins/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop()</script>
 
 ## Introduction
 
