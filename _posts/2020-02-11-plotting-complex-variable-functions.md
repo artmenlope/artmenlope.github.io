@@ -1,6 +1,6 @@
 ---
 title: Plotting complex variable functions
-date: 2020-02-11 21:54:53 +0000
+date: "2020-02-11"
 created: '2020-02-11T21:54:53.008Z'
 modified: '2020-04-12T22:09:40.883Z'
 author_profile: false
