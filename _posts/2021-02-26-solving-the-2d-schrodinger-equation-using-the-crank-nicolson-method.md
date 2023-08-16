@@ -10,9 +10,7 @@ toc_icon: "fas fa-list-ul"
 ---
 
 
-
-
-## Introduction
+<!--## Introduction-->
 
 In this post we will learn to solve the 2D schrödinger equation using the Crank-Nicolson numerical method. It is important to note that this method is computationally expensive, but it is more precise and more stable than other low-order time-stepping methods [[1]](#References). It calculates the time derivative with a central finite differences approximation [[1]](#References). 
 
