@@ -20,7 +20,7 @@ We say that two operators $P$ and $Q$ commute when $PQ$=$QP$. However, this is n
 This gives rise to the definition of the commutator:
 
 $$
-[A, B] := AB-BA\,,
+[A, B] := AB-BA ,
 $$ 
 
 where $A$ and $B$ are two operators. We say that $A$ and $B$ commute if $[A, B]=0$. 
@@ -34,7 +34,7 @@ With this introduction, we can now take a look at the Zassenhaus formula in the 
 The Zassenhaus formula is the following [[1]](#References):
 
 $$
-e^{A+B} = e^{A}e^{B}\prod_2^\inf e^{C_n(A,B)}\,,
+e^{A+B} = e^{A}e^{B}\prod_{n=2}^\infty e^{C_n(A,B)} ,
 $$
 
 where $C_n(A,B)$ are polynomials in $A$ and $B$ of degree $n$. For example, $C_2$ and $C_3$ would be 
@@ -46,13 +46,13 @@ $$
 and 
 
 $$
-C_3 = \frac{1}{6}(2[B,[A,B]]+[A,[A,B]])\,.
+C_3 = \frac{1}{6}(2[B,[A,B]]+[A,[A,B]]) .
 $$
 
 Putting some of the first $C_n$ terms together, the formula would look as follows [[2]](#References):
 
 $$
-e^{A+B} = e^{A} e^{B} e^{-\frac{1}{2}[A,B]}e^{\frac{1}{6}(2[B,[A,B]]+[A,[A,B]])} e^{-\frac{1}{24}([[[A,B],A],A]+3[[[A,B],A],B]+3[[[A,B],B],B])} \cdots\,.
+e^{A+B} = e^{A} e^{B} e^{-\frac{1}{2}[A,B]}e^{\frac{1}{6}(2[B,[A,B]]+[A,[A,B]])} e^{-\frac{1}{24}([[[A,B],A],A]+3[[[A,B],A],B]+3[[[A,B],B],B])} \cdots 
 $$
 
 ## Related identities
@@ -64,7 +64,7 @@ In this section I will show other useful identities related to the Zassenhaus fo
 The Zassenhaus formula is a consequence of the Baker-Campbell-Hausdorff formula, and it can be described as its dual [[3]](#References). The latter is the solution to the equation [[2]](#References)
 
 $$
-e^{A}e^{B}=e^{C}\,,
+e^{A}e^{B}=e^{C} ,
 $$
 
 with the solution $C$ being a series with the following first terms [[1, 2, 4]](#References):
@@ -76,7 +76,7 @@ $$
 Therefore, putting everything together, the Baker-Campbell-Hausdorff or BCH formula looks as follows [[2, 4]](#References):
 
 $$
-e^{A}e^{B}=e^{A + B + \frac{1}{2}[A,B] + \frac{1}{12}([A,[A,B]]-[B,[A,B]]) - \frac{1}{24}[B,[A,[A,B]]] + \cdots} \,.
+e^{A}e^{B}=e^{A + B + \frac{1}{2}[A,B] + \frac{1}{12}([A,[A,B]]-[B,[A,B]]) - \frac{1}{24}[B,[A,[A,B]]] + \cdots} .
 $$
 
 <!--This formula can be proven by expanding the exponentials in Maclaurin series and using the definition of commutator together with some algebra.-->
@@ -87,7 +87,7 @@ $$
 The following formula is very useful for computing unitary transformations in quantum mechanics. It has the following form [[1, 2, 5]](#References):
 
 $$
-e^A B e^{-A} = \sum_{n=0}^\inf \dfrac{[(A)^n,B]}{n!}\,,
+e^A B e^{-A} = \sum_{n=0}^\infty \dfrac{[(A)^n,B]}{n!} ,
 $$
 
 where $[(A)^n,B]$ is the iterated commutator. For example, $[(A)^3,B]=[A,[A,[A,B]]]$.
@@ -98,13 +98,13 @@ where $[(A)^n,B]$ is the iterated commutator. For example, $[(A)^3,B]=[A,[A,[A,B
 This is a special case of the BCH formula. If $[A,B]=uA+vB+wI$, with $I$ being the identity operator, then the solution to the BCH formula is [[6]](#References)
 
 $$
-C = A + B + f(u,v) [A,B]\,,
+C = A + B + f(u,v) [A,B] ,
 $$
 
 where 
 
 $$
-f(u,v)=\dfrac{1}{e^{-u}-e^{-v}}\left(\dfrac{1-e^{-u}}{u}-\dfrac{1-e^{-v}}{v}\right)\,.
+f(u,v)=\dfrac{1}{e^{-u}-e^{-v}}\left(\dfrac{1-e^{-u}}{u}-\dfrac{1-e^{-v}}{v}\right) .
 $$
 
 
@@ -113,7 +113,7 @@ $$
 Also known as the Trotter product formula [[7]](#References), it is also applied in situations where we have two operators that do not necessarily commute. The formula is as follows:
 
 $$
-e^{A+B}=\lim_{n\to\infty}(e^{A/n} e^{B/n})^n \,.
+e^{A+B}=\lim_{n\to\infty}(e^{A/n} e^{B/n})^n .
 $$ 
 
 <!--These kinds of formulas allow separating time evolution into small time steps.-->
