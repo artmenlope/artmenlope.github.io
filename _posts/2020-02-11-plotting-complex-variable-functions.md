@@ -10,8 +10,6 @@ toc_label: "Table of Contents"
 toc_icon: "fas fa-list-ul"
 ---
 
-<!-- # Plotting complex variable functions -->
-
 <div style="text-align: justify">
 When we try to plot a complex variable function we encounter a first problem: we need a four-dimensional space. This is because this type of function goes from the complex plane to the complex plane, that is, two dimensions are associated to the input variable of the function and another two to the result of the function.
 
