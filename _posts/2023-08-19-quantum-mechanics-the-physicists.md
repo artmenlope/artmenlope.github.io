@@ -33,6 +33,10 @@ gallery:
     image_path: https://img.youtube.com/vi/nXFmhpNDtRQ/0.jpg
     alt: "Wolfgang Pauli"
     title: "Wolfgang Pauli"
+  - url: https://www.youtube.com/watch?v=in_0q09Dj0k
+    image_path: https://img.youtube.com/vi/in_0q09Dj0k/0.jpg
+    alt: "Niels Bohr"
+    title: "Niels Bohr"
   - url: https://www.youtube.com/watch?v=hdprkUgWTg4
     image_path: https://img.youtube.com/vi/hdprkUgWTg4/0.jpg
     alt: "Albert Einstein"
