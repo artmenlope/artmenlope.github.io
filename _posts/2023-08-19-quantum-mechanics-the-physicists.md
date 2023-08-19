@@ -61,6 +61,12 @@ feature_row:
     excerpt: "<br/> **Albert Einstein**"
     btn_label: "Video"
     btn_class: "btn btn--info"
+  - url: https://www.youtube.com/watch?v=zVo1m6LlaZ8
+    image_path: https://img.youtube.com/vi/zVo1m6LlaZ8/0.jpg
+    alt: "Enrico Fermi"
+    excerpt: "<br/> **Enrico Fermi**"
+    btn_label: "Video"
+    btn_class: "btn btn--info"
   - url: https://www.youtube.com/watch?v=Q1lL-hXO27Q
     image_path: https://img.youtube.com/vi/Q1lL-hXO27Q/0.jpg
     alt: "Richard Feynman"
@@ -71,6 +77,12 @@ feature_row:
     image_path: https://img.youtube.com/vi/AdtLxlttrHg/0.jpg
     alt: "Robert Oppenheimer"
     excerpt: "<br/> **Robert Oppenheimer**"
+    btn_label: "Video"
+    btn_class: "btn btn--info"
+  - url: https://www.youtube.com/watch?v=T9zFlbe8s2o
+    image_path: https://img.youtube.com/vi/T9zFlbe8s2o/0.jpg
+    alt: "Hans Bethe"
+    excerpt: "<br/> **Hans Bethe**"
     btn_label: "Video"
     btn_class: "btn btn--info"
   - url: https://www.youtube.com/watch?v=-HjF4yvgOlo
@@ -93,7 +105,7 @@ feature_row:
     btn_class: "btn btn--info"
 ---
 
-When studying quantum mechanics, we often find names like Planck, Dirac, Schrödinger and more. However, it can happen that, if we have been more used to the written form of these names, we may not have a clear image of the people behind them. Sometimes a picture is not enough, so in this post I wanted to make a gallery with recordings of quantum physicists that appear frequently in the textbooks.
+When studying quantum mechanics, we often find names like Planck, Dirac, Schrödinger and more. However, it can happen that, if we have been more used to the written form of these names, we may not have a clear image of the people behind them. Sometimes a picture is not enough, so in this post I wanted to make a gallery with recordings of quantum physicists who appear in the textbooks.
 
 {% include feature_row %}
 
