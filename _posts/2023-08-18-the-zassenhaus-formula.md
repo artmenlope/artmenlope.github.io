@@ -152,7 +152,7 @@ The exponential that we want to expand is $e^{X+Z}$. Therefore, the first terms 
 
 $$
 \begin{array}{rl}
-C_2 & = -\dfrac{1}{2}[X, Z] = -\dfrac{1}{2}(XZ-ZX) = -\dfrac{1}{2}\left(\begin{bmatrix}
+C_2 & = -\dfrac{1}{2}[X, Z] = -\dfrac{1}{2}(XZ-ZX) \\[1ex] & = -\dfrac{1}{2}\left(\begin{bmatrix}
 0 & 1 \\
 1 & 0 
 \end{bmatrix}
@@ -179,7 +179,7 @@ C_2 & = -\dfrac{1}{2}[X, Z] = -\dfrac{1}{2}(XZ-ZX) = -\dfrac{1}{2}\left(\begin{b
 -\dfrac{1}{2}\begin{bmatrix}
 0 & -2 \\
 2 & 0 
-\end{bmatrix} = -\dfrac{1}{2}(-2iY) = iY
+\end{bmatrix} \\[1ex] & = -\dfrac{1}{2}(-2iY) = iY
 \end{array}
 $$  
 
@@ -187,8 +187,9 @@ and
 
 $$
 \begin{array}{rl}
-C_3 & = \dfrac{1}{6}(2[Z,[X,Z]]+[X,[X,Z]]) = \dfrac{1}{6}(2[Z,-2iY]+[X,-2iY]) = \dfrac{1}{6}(-2i)(2[Z,Y]+[X,Y]) \\[1ex]
-& = \dfrac{1}{6}(-2i)[2(-2iX)+(2iZ)] = \dfrac{1}{6}(-4)(2X-Z) = -\dfrac{2}{3}(2X-Z).
+C_3 & = \dfrac{1}{6}(2[Z,[X,Z]]+[X,[X,Z]]) = \dfrac{1}{6}(2[Z,-2iY]+[X,-2iY]) \\[1ex] 
+& = \dfrac{1}{6}(-2i)(2[Z,Y]+[X,Y]) = \dfrac{1}{6}(-2i)[2(-2iX)+(2iZ)] \\[1ex] 
+& = \dfrac{1}{6}(-4)(2X-Z) = -\dfrac{2}{3}(2X-Z).
 \end{array}
 $$
 
