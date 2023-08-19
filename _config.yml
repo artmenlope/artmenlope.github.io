@@ -277,3 +277,8 @@ defaults:
       share: true
       related: true
       show_date: true
+  - scope:
+      path: ""
+      typr: pages
+    values:
+      show_date: true
