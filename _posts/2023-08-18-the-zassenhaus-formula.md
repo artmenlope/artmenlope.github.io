@@ -116,9 +116,88 @@ $$
 
 <!--These kinds of formulas allow separating time evolution into small time steps.-->
 
-## Examples
+## Example
 
-To do.
+Here is an example on how to use the Zassenhaus formula with the Pauli operators in matrix form. To keep this short, we will only calculate the first terms.
+
+The Pauli matrices are the following ones: 
+
+$$
+I = 
+\begin{bmatrix}
+1 & 0 \\
+0 & 1 
+\end{bmatrix},
+\quad
+X = 
+\begin{bmatrix}
+0 & 1 \\
+1 & 0 
+\end{bmatrix},
+\quad
+Y = 
+\begin{bmatrix}
+0 & -i \\
+i & 0 
+\end{bmatrix},
+\quad
+Z = 
+\begin{bmatrix}
+1 & 0 \\
+0 & -1 
+\end{bmatrix}.
+$$
+
+The exponential that we want to expand is $e^{X+Z}$. Therefore, the first terms of the Zassenhaus formula will be
+
+$$
+\begin{array}{rl}
+C_2 & = -\dfrac{1}{2}[X, Z] = -\dfrac{1}{2}(XZ-ZX) = -\dfrac{1}{2}\left(\begin{bmatrix}
+0 & 1 \\
+1 & 0 
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 \\
+0 & -1 
+\end{bmatrix}-
+\begin{bmatrix}
+1 & 0 \\
+0 & -1 
+\end{bmatrix}
+\begin{bmatrix}
+0 & 1 \\
+1 & 0 
+\end{bmatrix}\right)\\[1ex]
+& = -\dfrac{1}{2}\left( \begin{bmatrix}
+0 & -1 \\
+1 & 0 
+\end{bmatrix}-
+\begin{bmatrix}
+0 & 1 \\
+-1 & 0 
+\end{bmatrix}\right)=
+-\dfrac{1}{2}\begin{bmatrix}
+0 & -2 \\
+2 & 0 
+\end{bmatrix} = -\dfrac{1}{2}(-2iY) = iY
+\end{array}
+$$  
+
+and 
+
+$$
+\begin{array}{rl}
+C_3 & = \dfrac{1}{6}(2[Z,[X,Z]]+[X,[X,Z]]) = \dfrac{1}{6}(2[Z,-2iY]+[X,-2iY]) = \dfrac{1}{6}(-2i)(2[Z,Y]+[X,Y]) \\[1ex]
+& = \dfrac{1}{6}(-2i)[2(-2iX)+(2iZ)] = \dfrac{1}{6}(-4)(2X-Z) = -\dfrac{2}{3}(2X-Z).
+\end{array}
+$$
+
+With this, the resulting formula will be
+
+$$
+e^{X+Z} = e^X e^Z e^{iY} e^{-\frac{2}{3}(2X-Z)}\cdots
+$$
+
 
 ## References
 
