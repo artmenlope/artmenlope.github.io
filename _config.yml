@@ -272,13 +272,8 @@ defaults:
       layout: single
       #classes: wide #Wide page
       author_profile: true
-      read_time: true
+      read_time: # true
       comments: # true
       share: true
       related: true
-      show_date: true
-  - scope:
-      path: ""
-      typr: pages
-    values:
       show_date: true
