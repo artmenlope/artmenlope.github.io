@@ -5,18 +5,22 @@ modified: '2023-08-19T16:01:23.006Z'
 author_profile: false
 
 gallery:
-  - url: https://www.youtube.com/watch?v=xJzrU38pGWc
-    image_path: https://img.youtube.com/vi/xJzrU38pGWc/0.jpg
-    alt: "Paul Dirac and Friedrich Hund"
-    title: "Paul Dirac and Friedrich Hund"
-  - url: https://www.youtube.com/watch?v=5MDJC029tfc
-    image_path: https://img.youtube.com/vi/5MDJC029tfc/0.jpg
-    alt: "Louis de Broglie"
-    title: "Louis de Broglie"
   - url: https://www.youtube.com/watch?v=B9FpAGK8bj8
     image_path: https://img.youtube.com/vi/B9FpAGK8bj8/0.jpg
     alt: "Max Planck"
     title: "Max Planck"
+  - url: https://www.youtube.com/watch?v=xJzrU38pGWc
+    image_path: https://img.youtube.com/vi/xJzrU38pGWc/0.jpg
+    alt: "Paul Dirac and Friedrich Hund"
+    title: "Paul Dirac and Friedrich Hund"
+  - url: https://www.youtube.com/watch?v=hCwR1ztUXtU
+    image_path: https://img.youtube.com/vi/hCwR1ztUXtU/0.jpg
+    alt: "Erwin Schrödinger"
+    title: "Erwin Schrödinger"
+  - url: https://www.youtube.com/watch?v=5MDJC029tfc
+    image_path: https://img.youtube.com/vi/5MDJC029tfc/0.jpg
+    alt: "Louis de Broglie"
+    title: "Louis de Broglie"
   - url: https://www.youtube.com/watch?v=CvZayXHvJm0
     image_path: https://img.youtube.com/vi/CvZayXHvJm0/0.jpg
     alt: "Werner Heisenberg"
