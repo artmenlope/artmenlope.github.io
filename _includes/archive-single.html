@@ -27,7 +27,7 @@
     {% if post.show_date==true and post.read_time!=true %}
       <p class="page__meta"><i class="far fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %d, %Y" }}</p>
     {% endif %}
-    {% if post.read_time==true and post.show_date!=true %}
+    {% if post.read_time!=true and post.show_date==true %}
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.read_time==true and post.show_date==true %}
