@@ -45,6 +45,10 @@ gallery:
     image_path: https://img.youtube.com/vi/Q1lL-hXO27Q/0.jpg
     alt: "Richard Feynman"
     title: "Richard Feynman"
+  - url: https://www.youtube.com/watch?v=AdtLxlttrHg
+    image_path: https://img.youtube.com/vi/AdtLxlttrHg/0.jpg
+    alt: "Robert Oppenheimer"
+    title: "Robert Oppenheimer"
   - url: https://www.youtube.com/watch?v=-HjF4yvgOlo
     image_path: https://img.youtube.com/vi/-HjF4yvgOlo/0.jpg
     alt: "Freeman Dyson"
@@ -59,7 +63,7 @@ gallery:
     title: "Alain Aspect"   
 ---
 
-When studying quantum mechanics, we often find names like Planck, Dirac, Schrödinger and more. However, it can happen that, if we have been more used to the written form of these names, we may not have a clear image of the people behind them. Sometimes a picture is not enough, so in this post I wanted to make a gallery with video recordings of quantum physicists that we usually find in the textbooks.
+When studying quantum mechanics, we often find names like Planck, Dirac, Schrödinger and more. However, it can happen that, if we have been more used to the written form of these names, we may not have a clear image of the people behind them. Sometimes a picture is not enough, so in this post I wanted to make a gallery with recordings of quantum physicists that we usually find in the textbooks. Hover the mouse over the images to see the name of the corresponding physicist. Click on an image to go to the YouTube video.
 
 {% include gallery caption="" %}
 
