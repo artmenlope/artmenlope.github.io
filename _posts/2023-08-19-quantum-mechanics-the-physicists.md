@@ -3,10 +3,6 @@ title: "Quantum mechanics: the physicists"
 created: '2023-08-19T16:01:23.006Z'
 modified: '2023-08-19T16:01:23.006Z'
 author_profile: false
-toc: true
-toc_sticky: true
-toc_label: "Table of Contents"
-toc_icon: "fas fa-list-ul"
 
 gallery:
   - url: https://www.youtube.com/watch?v=xJzrU38pGWc
@@ -25,10 +21,13 @@ gallery:
     image_path: https://img.youtube.com/vi/CvZayXHvJm0/0.jpg
     alt: "Werner Heisenberg"
     title: "Werner Heisenberg"
-
+  - url: https://www.youtube.com/watch?v=Q1lL-hXO27Q
+    image_path: https://img.youtube.com/vi/Q1lL-hXO27Q/0.jpg
+    alt: "Richard Feynman"
+    title: "Richard Feynman"
 ---
 
 When studying quantum mechanics, we often find names like Planck, Dirac, Schrödinger and more. However, it can happen that, if we have been more used to the written form of these names, we may not have a clear image of the people behind them. Sometimes a picture is not enough, so in this post I wanted to make a gallery with video recordings of quantum physicists that we usually find in the textbooks.
 
-{% include gallery caption="This is a gallery with **Markdown support**." %}
+{% include gallery caption="" %}
 
