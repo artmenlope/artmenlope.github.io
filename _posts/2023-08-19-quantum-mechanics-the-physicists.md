@@ -25,14 +25,30 @@ gallery:
     image_path: https://img.youtube.com/vi/CvZayXHvJm0/0.jpg
     alt: "Werner Heisenberg"
     title: "Werner Heisenberg"
-  - url: https://www.youtube.com/watch?v=Q1lL-hXO27Q
-    image_path: https://img.youtube.com/vi/Q1lL-hXO27Q/0.jpg
-    alt: "Richard Feynman"
-    title: "Richard Feynman"
   - url: https://www.youtube.com/watch?v=vLbllFHBQM4
     image_path: https://img.youtube.com/vi/vLbllFHBQM4/0.jpg
     alt: "John von Neumann"
     title: "John von Neumann"
+  - url: https://www.youtube.com/watch?v=nXFmhpNDtRQ
+    image_path: https://img.youtube.com/vi/nXFmhpNDtRQ/0.jpg
+    alt: "Wolfgang Pauli"
+    title: "Wolfgang Pauli"
+  - url: https://www.youtube.com/watch?v=hdprkUgWTg4
+    image_path: https://img.youtube.com/vi/hdprkUgWTg4/1.jpg
+    alt: "Albert Einstein"
+    title: "Albert Einstein"
+  - url: https://www.youtube.com/watch?v=Q1lL-hXO27Q
+    image_path: https://img.youtube.com/vi/Q1lL-hXO27Q/0.jpg
+    alt: "Richard Feynman"
+    title: "Richard Feynman"
+  - url: https://www.youtube.com/watch?v=-HjF4yvgOlo
+    image_path: https://img.youtube.com/vi/-HjF4yvgOlo/0.jpg
+    alt: "Freeman Dyson"
+    title: "Freeman Dyson"
+  - url: https://www.youtube.com/watch?v=3l9HtG-VZCU
+    image_path: https://img.youtube.com/vi/3l9HtG-VZCU/0.jpg
+    alt: "John Bell"
+    title: "John Bell"
 ---
 
 When studying quantum mechanics, we often find names like Planck, Dirac, Schrödinger and more. However, it can happen that, if we have been more used to the written form of these names, we may not have a clear image of the people behind them. Sometimes a picture is not enough, so in this post I wanted to make a gallery with video recordings of quantum physicists that we usually find in the textbooks.
