@@ -49,6 +49,10 @@ gallery:
     image_path: https://img.youtube.com/vi/3l9HtG-VZCU/0.jpg
     alt: "John Bell"
     title: "John Bell"
+  - url: https://www.youtube.com/watch?v=eKRsF9cbhSM
+    image_path: https://img.youtube.com/vi/eKRsF9cbhSM/0.jpg
+    alt: "Alain Aspect"
+    title: "Alain Aspect"   
 ---
 
 When studying quantum mechanics, we often find names like Planck, Dirac, Schrödinger and more. However, it can happen that, if we have been more used to the written form of these names, we may not have a clear image of the people behind them. Sometimes a picture is not enough, so in this post I wanted to make a gallery with video recordings of quantum physicists that we usually find in the textbooks.
