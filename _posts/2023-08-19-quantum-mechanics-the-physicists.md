@@ -34,7 +34,7 @@ gallery:
     alt: "Wolfgang Pauli"
     title: "Wolfgang Pauli"
   - url: https://www.youtube.com/watch?v=hdprkUgWTg4
-    image_path: https://img.youtube.com/vi/hdprkUgWTg4/1.jpg
+    image_path: https://img.youtube.com/vi/hdprkUgWTg4/0.jpg
     alt: "Albert Einstein"
     title: "Albert Einstein"
   - url: https://www.youtube.com/watch?v=Q1lL-hXO27Q
