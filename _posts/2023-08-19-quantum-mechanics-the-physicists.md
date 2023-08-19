@@ -4,7 +4,7 @@ created: '2023-08-19T16:01:23.006Z'
 modified: '2023-08-19T16:01:23.006Z'
 author_profile: false
 
-gallery:
+feature_row:
   - url: https://www.youtube.com/watch?v=B9FpAGK8bj8
     image_path: https://img.youtube.com/vi/B9FpAGK8bj8/0.jpg
     alt: "Max Planck"
@@ -65,5 +65,5 @@ gallery:
 
 When studying quantum mechanics, we often find names like Planck, Dirac, Schrödinger and more. However, it can happen that, if we have been more used to the written form of these names, we may not have a clear image of the people behind them. Sometimes a picture is not enough, so in this post I wanted to make a gallery with recordings of quantum physicists that we usually find in the textbooks. Hover the mouse over the images to see the name of the corresponding physicist. Click on an image to go to the YouTube video.
 
-{% include gallery caption="" %}
+{% include feature_row %}
 
