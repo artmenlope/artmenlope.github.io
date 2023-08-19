@@ -8,13 +8,16 @@ feature_row:
   - url: https://www.youtube.com/watch?v=B9FpAGK8bj8
     image_path: https://img.youtube.com/vi/B9FpAGK8bj8/0.jpg
     alt: "Max Planck"
-    image_caption: "Max Planck"
+    image_caption: "**Max Planck**"
+    excerpt: "<br/> **Max Planck**"
     btn_label: "Video"
     btn_class: "btn btn--info"
   - url: https://www.youtube.com/watch?v=xJzrU38pGWc
     image_path: https://img.youtube.com/vi/xJzrU38pGWc/0.jpg
     alt: "Paul Dirac and Friedrich Hund"
-    excerpt: "<br/> Paul Dirac and Friedrich Hund"
+    excerpt: "<br/> **Paul Dirac and Friedrich Hund**"
+    btn_label: "Video"
+    btn_class: "btn btn--info"
   - url: https://www.youtube.com/watch?v=hCwR1ztUXtU
     image_path: https://img.youtube.com/vi/hCwR1ztUXtU/0.jpg
     alt: "Erwin Schrödinger"
