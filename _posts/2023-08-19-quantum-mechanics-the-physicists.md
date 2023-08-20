@@ -5,7 +5,8 @@ modified: '2023-08-19T16:01:23.006Z'
 date: 2023-08-19
 last_modified_at: 2023-08-19
 author_profile: false
-teaser: /assets/images/2023-08-19/physicists-thumbnail-andrew-george.jpg
+header: 
+  teaser: /assets/images/2023-08-19/physicists-thumbnail-andrew-george.jpg
 feature_row:
   - url: https://www.youtube.com/watch?v=B9FpAGK8bj8
     image_path: https://img.youtube.com/vi/B9FpAGK8bj8/0.jpg
