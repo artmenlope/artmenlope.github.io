@@ -8,6 +8,8 @@ toc: true
 toc_sticky: true
 toc_label: "Table of Contents"
 toc_icon: "fas fa-list-ul"
+header:
+  teaser: /assets/images/2020-02-11/coloring-thumbnail.jpg
 ---
 
 <div style="text-align: justify">
