@@ -4,7 +4,8 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+//@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'mint' }}"; // skin
 
 /*
 // Base 16 github theme for syntax coloring.
