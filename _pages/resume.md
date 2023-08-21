@@ -22,6 +22,7 @@ toc_icon: "fas fa-list-ul"
 
 ### Certificates
 
+- (2023) Basic Training on Laser Safety - [ProCareLight](https://procarelight.com/en/training/basic-training)
 - (2022) Qiskit Global Summer School 2022 - Quantum Excellence - [IBM](https://www.credly.com/badges/f033069c-83c3-4f63-aafc-a6c29cffad88/linked_in_profile)
 - (2022) Machine Learning con Python. Aprendizaje Automático Avanzado - [Udemy](https://udemy-certificate.s3.amazonaws.com/pdf/UC-940167b4-37a9-4972-90d7-f89207b22d52.pdf)
 
