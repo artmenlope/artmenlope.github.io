@@ -1,11 +1,11 @@
 # main links
 main:
 - title: "Home"
-  url: "https://artmenlope.github.io/"
+  url: "/"
 - title: "Papers"
   url: "https://scholar.google.com/citations?user=ekaiL6kAAAAJ"
 - title: "Résumé"
-  url: "/resume.md/"
+  url: "/resume/"
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
