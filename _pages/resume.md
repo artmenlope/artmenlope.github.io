@@ -2,6 +2,7 @@
 title: Résumé
 created: '2023-08-21T15:47:33.004Z'
 modified: '2023-08-21T15:47:33.004Z'
+permalink: /resume/
 author_profile: true
 toc: true
 toc_sticky: true
