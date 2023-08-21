@@ -37,6 +37,18 @@
       text-decoration: none;
     }
   }
+/* ================================
+   Added to make the mashead bar always visible (sticky) 
+   See https://github.com/mmistakes/minimal-mistakes/issues/1085#issuecomment-753322297 
+*/
+  &.sticky {
+    @include clearfix();
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0em;
+    float: right;
+  }
+/* ================================ */
 }
 
 .site-logo img {
