@@ -49,6 +49,7 @@ feature_row:
 - [Chronotrains](https://www.chronotrains.com/en)
 - [Radio Garden](http://radio.garden/)
 
-
+<iframe src="https://scholar.google.com/citations?user=ekaiL6kAAAAJ">
+</iframe>
 
 
