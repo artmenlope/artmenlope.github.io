@@ -37,6 +37,8 @@ feature_row:
 
 {% include feature_row %}
 
+<embed src="https://github.com/artmenlope"/>
+
 ### Cool links
 
 - [Detexify](https://detexify.kirelabs.org/classify.html)
