@@ -57,6 +57,25 @@ feature_row:
 </style>
 
 <div class="col2">
+<ul>
+<li><a href="https://detexify.kirelabs.org/classify.html">Detexify</a></li>
+<li><a href="https://www.integral-calculator.com/">Integral Calculator</a></li>
+<li><a href="https://www.numfys.net/examples/">Numfys</a></li>
+<li><a href="https://refractiveindex.info/">RefractiveIndex.INFO</a></li>
+<li><a href="https://www.quantiki.org/wiki/main-page">Quantiki</a></li>
+<li><a href="Mathonline.wikidot">http://mathonline.wikidot.com/</a></li>
+<li><a href="https://mathshistory.st-andrews.ac.uk/">MacTutor</a></li>
+<li><a href="https://complex-analysis.com/">Complex Analysis</a></li>
+<li><a href="https://www.gutenberg.org/">Project Gutenberg</a></li>
+<li><a href="https://geofolio.org/">Geofolio</a></li>
+<li><a href="https://www.chronotrains.com/en">Chronotrains</a></li>
+<li><a href="http://radio.garden/">Radio Garden</a></li>
+<li><a href="https://github.com/rougier/scientific-visualization-book">Scientific Visualization: Python + Matplotlib</a></li>
+<li><a href="http://www.damtp.cam.ac.uk/user/tong/teaching.html">David Tong: Lectures</a></li>
+</ul>
+</div>
+
+<!--
 - [Detexify](https://detexify.kirelabs.org/classify.html)
 - [Integral Calculator](https://www.integral-calculator.com/)
 - [Numfys](https://www.numfys.net/examples/)
@@ -71,9 +90,8 @@ feature_row:
 - [Radio Garden](http://radio.garden/)
 - [Scientific Visualization: Python + Matplotlib](https://github.com/rougier/scientific-visualization-book)
 - [David Tong: Lectures](http://www.damtp.cam.ac.uk/user/tong/teaching.html)
-</div>
 
-<!--
+
 <embed src="https://scholar.google.com/citations?user=ekaiL6kAAAAJ"/>
 -->
 
