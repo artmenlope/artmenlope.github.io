@@ -33,12 +33,30 @@ feature_row:
     btn_class: "btn btn--info"
 ---
 
+
+
 ### Some programming
 
 {% include feature_row %}
 
 ### Cool links
 
+<!-- https://stackoverflow.com/a/31754601 -->
+
+<style>
+  .col2 {
+    columns: 2 200px;         /* number of columns and width in pixels*/
+    -webkit-columns: 2 200px; /* chrome, safari */
+    -moz-columns: 2 200px;    /* firefox */
+  }
+  .col3 {
+    columns: 3 100px;
+    -webkit-columns: 3 100px;
+    -moz-columns: 3 100px;
+  }
+</style>
+
+<div class="col2">
 - [Detexify](https://detexify.kirelabs.org/classify.html)
 - [Integral Calculator](https://www.integral-calculator.com/)
 - [Numfys](https://www.numfys.net/examples/)
@@ -53,6 +71,7 @@ feature_row:
 - [Radio Garden](http://radio.garden/)
 - [Scientific Visualization: Python + Matplotlib](https://github.com/rougier/scientific-visualization-book)
 - [David Tong: Lectures](http://www.damtp.cam.ac.uk/user/tong/teaching.html)
+</div>
 
 <!--
 <embed src="https://scholar.google.com/citations?user=ekaiL6kAAAAJ"/>
