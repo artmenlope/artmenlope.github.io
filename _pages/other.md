@@ -63,7 +63,7 @@ feature_row:
 <li><a href="https://www.numfys.net/examples/">Numfys</a></li>
 <li><a href="https://refractiveindex.info/">RefractiveIndex.INFO</a></li>
 <li><a href="https://www.quantiki.org/wiki/main-page">Quantiki</a></li>
-<li><a href="Mathonline.wikidot">http://mathonline.wikidot.com/</a></li>
+<li><a href="http://mathonline.wikidot.com/">Mathonline.wikidot</a></li>
 <li><a href="https://mathshistory.st-andrews.ac.uk/">MacTutor</a></li>
 <li><a href="https://complex-analysis.com/">Complex Analysis</a></li>
 <li><a href="https://www.gutenberg.org/">Project Gutenberg</a></li>
