@@ -18,7 +18,6 @@
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %}
-    <div class="notice">
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -26,7 +25,6 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    </div>
     {% if post.show_date==true and post.read_time!=true %}
       <p class="page__meta"><i class="far fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %d, %Y" }}</p>
     {% endif %}
