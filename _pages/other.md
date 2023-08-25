@@ -42,12 +42,17 @@ feature_row:
 - [Detexify](https://detexify.kirelabs.org/classify.html)
 - [Integral Calculator](https://www.integral-calculator.com/)
 - [Numfys](https://www.numfys.net/examples/)
+- [RefractiveIndex.INFO](https://refractiveindex.info/)
+- [Quantiki](https://www.quantiki.org/wiki/main-page)
 - [Mathonline.wikidot](http://mathonline.wikidot.com/)
 - [MacTutor](https://mathshistory.st-andrews.ac.uk/)
+- [Complex Analysis](https://complex-analysis.com/)
 - [Project Gutenberg](https://www.gutenberg.org/)
 - [Geofolio](https://geofolio.org/)
 - [Chronotrains](https://www.chronotrains.com/en)
 - [Radio Garden](http://radio.garden/)
+- [Scientific Visualization: Python + Matplotlib](https://github.com/rougier/scientific-visualization-book)
+- [David Tong: Lectures](http://www.damtp.cam.ac.uk/user/tong/teaching.html)
 
 <!--
 <embed src="https://scholar.google.com/citations?user=ekaiL6kAAAAJ"/>
