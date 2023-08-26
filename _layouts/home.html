@@ -13,7 +13,9 @@ layout: archive
 {% endif %}
 
 {% for post in posts %}
-  {% include archive-single.html %}
+  <div class="notice" markdown="1">
+    {% include archive-single.html %}
+  </div>
 {% endfor %}
 
 {% include paginator.html %}
