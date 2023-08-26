@@ -13,8 +13,6 @@ header:
 
 In this post I will talk a bit about the Zassenhaus formula, which is a very useful formula in quantum physics. It describes the disentanglement of the exponential of the sum of two non-commuting operators into a product of exponential operators [[1]](#References). 
 
-![image-center](/assets/images/2023-08-18/undraw_mathematics_-4-otb.svg){: .align-center style="width: 20%;"}
-
 ## Introduction: Commutators
 
 We say that two operators $P$ and $Q$ commute when $PQ$=$QP$. However, this is not always the case. For example, in quantum mechanics we find pairs of observables whose operators do not commute. This is what happens to the position and momentum observables, described by the operators $\hat{x}$ and $\hat{p}$ respectively. We find that $\hat{x}\hat{p}\neq\hat{p}\hat{x}$.
