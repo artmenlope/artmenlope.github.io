@@ -13,7 +13,7 @@ header:
 
 In this post I will talk a bit about the Zassenhaus formula, which is a very useful formula in quantum physics. It describes the disentanglement of the exponential of the sum of two non-commuting operators into a product of exponential operators [[1]](#References). 
 
-![image-center](/assets/images/2023-08-18/undraw_mathematics_-4-otb.svg){: .align-center style="width: 40%;"}
+![image-center](/assets/images/2023-08-18/undraw_mathematics_-4-otb.svg){: .align-center style="width: 20%;"}
 
 ## Introduction: Commutators
 
