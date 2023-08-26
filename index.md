@@ -4,7 +4,6 @@ author_profile: true
 header:
   image: /assets/images/HCF_static-glass-widecut-web.jpg
 ---
-
 <!-- 
 header:
   image: /assets/images/voronoi-rndm-1-thin.svg
