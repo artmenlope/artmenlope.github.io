@@ -72,6 +72,7 @@ feature_row:
 <li><a href="http://radio.garden/">Radio Garden</a></li>
 <li><a href="https://github.com/rougier/scientific-visualization-book">Scientific Visualization: Python + Matplotlib</a></li>
 <li><a href="http://www.damtp.cam.ac.uk/user/tong/teaching.html">David Tong: Lectures</a></li>
+  <li><a href="https://ciechanow.ski/archives/">Bartosz Ciechanowski</a></li>
 </ul>
 </div>
 
