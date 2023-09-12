@@ -1,9 +1,9 @@
 ---
 title: "Quantum mechanics: the physicists"
-created: '2023-08-19T16:01:23.006Z'
-modified: '2023-08-19T16:01:23.006Z'
-date: 2023-08-19
-last_modified_at: 2023-08-19
+created: '2023-08-18T16:01:23.006Z'
+modified: '2023-08-18T16:01:23.006Z'
+date: 2023-08-18
+last_modified_at: 2023-08-18
 author_profile: false
 header: 
   teaser: /assets/images/2023-08-19/physicists-thumbnail-andrew-george.jpg
