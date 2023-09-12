@@ -1,7 +1,7 @@
 ---
 title: The Zassenhaus formula
-created: '2023-08-18T21:47:49.001Z'
-modified: '2023-08-18T21:47:49.001Z'
+created: '2023-08-19T21:47:49.001Z'
+modified: '2023-08-19T21:47:49.001Z'
 author_profile: false
 toc: true
 toc_sticky: true
