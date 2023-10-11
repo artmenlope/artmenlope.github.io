@@ -529,7 +529,6 @@ body:hover .visually-hidden button {
   text-decoration: none;
   font-size: $type-size-5;
   font-weight: bold;
-  font-variant-position: normal;
 }
 
 .footnotes {
@@ -542,6 +541,10 @@ body:hover .visually-hidden button {
     /*font-size: $type-size-6;*/
     font-size: $type-size-5;
   }
+}
+
+a.footnote {
+    font-variant-position: normal;
 }
 
 a.footnote:before {
