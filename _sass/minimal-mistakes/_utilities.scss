@@ -524,10 +524,9 @@ body:hover .visually-hidden button {
    ========================================================================== */
 
 .footnote {
-  color: mix(#fff, $gray, 25%);
-  /*color: $link-color;*/
+  /*color: mix(#fff, $gray, 25%);*/
+  color: $link-color;
   text-decoration: none;
-  vertical-align: baseline;
 }
 
 .footnotes {
@@ -540,6 +539,14 @@ body:hover .visually-hidden button {
     /*font-size: $type-size-6;*/
     font-size: $type-size-5;
   }
+}
+
+a.footnote:before {
+ content: "[";
+}
+
+a.footnote:after {
+    content: "]";
 }
 
 a.reversefootnote {
