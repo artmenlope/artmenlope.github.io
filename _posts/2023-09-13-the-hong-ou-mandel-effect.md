@@ -10,7 +10,15 @@ toc_icon: "fas fa-list-ul"
 header:
   teaser: /assets/images/2023-09-13/hom-effect-thumbnail.jpg
 ---
+<style>
+a.footnote:before {   
+ content: "[";
+}
 
+a.footnote:after {
+    content: "]";
+}
+</style>
 
 Along with [quantum superposition](https://en.wikipedia.org/wiki/Quantum_superposition) and [quantum entanglement](https://en.wikipedia.org/wiki/Quantum_entanglement), quantum interference is one of the most important phenomena used in quantum information processing or quantum computing. In this case, quantum interference refers to the interference of [probability amplitudes](https://en.wikipedia.org/wiki/Probability_amplitude#Examples). However, it is not always mentioned when discussing such topics[^1]. 
 
