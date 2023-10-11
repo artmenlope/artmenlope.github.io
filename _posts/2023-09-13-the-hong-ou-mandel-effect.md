@@ -33,12 +33,12 @@ One example of quantum interference is the Hong-Ou-Mandel effect (i.e., the HOM 
 
 Now, we will take a look at the main idea behind this effect. We will start by considering a simple quantum description of a balanced beam splitter. A balanced beam splitter is a device that reflects the 50% of the incoming light and transmits the other 50%. At the quantum level, this means that a photon will be reflected with 50% probability and transmitted with 50% probability. 
 
-For the mathematical treatment in this post, we will consider the matrix description in the second quantization [formalism](https://www.youtube.com/watch?v=eKRsF9cbhSM). That is, we will use [ladder operators](https://en.wikipedia.org/wiki/Creation_and_annihilation_operators#Generalized_creation_and_annihilation_operators) ($\hat{a}$, $\hat{a}^\dagger$) to show the form of the matrix describing the beam splitter as an operator. We will use [Dirac notation](https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation) to represent as $|n\rangle_a$ the presence of $n$ photons in a spatial path $a$. This way, by $|m\rangle_a|n\rangle_b$ we will mean that there are $m$ photons traveling through the path $a$ and $n$ photons traveling through the path $b$. With this, the ladder operators work as follows: 
+For the mathematical treatment in this post, we will consider the matrix description in the second quantization [formalism](https://www.youtube.com/watch?v=eKRsF9cbhSM). That is, we will use [ladder operators](https://en.wikipedia.org/wiki/Creation_and_annihilation_operators#Generalized_creation_and_annihilation_operators) ($\hat{a}$, $\hat{a}^\dagger$) to show the form of the matrix describing the beam splitter as an operator. We will use [Dirac notation](https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation) to represent as $\vert n\rangle_a$ the presence of $n$ photons in a spatial path $a$. This way, by $\vert m\rangle_a \vert n\rangle_b$ we will mean that there are $m$ photons traveling through the path $a$ and $n$ photons traveling through the path $b$. With this, the ladder operators work as follows: 
 
 $$
 \begin{array}{c}
-\hat{a}^\dagger_a|n\rangle_a = \sqrt{n+1} |n+1\rangle_a  \\[1ex]
-\hat{a}_a|n\rangle_a = \sqrt{n} |n-1\rangle_a
+\hat{a}^\dagger_a \vert n\rangle_a = \sqrt{n+1} \vert n+1\rangle_a  \\[1ex]
+\hat{a}_a \vert n\rangle_a = \sqrt{n} \vert n-1\rangle_a
 \end{array},
 $$
 
@@ -46,9 +46,9 @@ where the creation and anihilation operators $\hat{a}^\dagger_a$ and $\hat{a}_a$
 
 $$
 \begin{array}{c}
-\hat{a}^\dagger_a|0\rangle_a = |1\rangle_a \;,\\[1ex]
-\hat{a}_a|1\rangle_a = |0\rangle_a \;, \\[1ex]
-\hat{a}^\dagger_b|0\rangle_a|0\rangle_b = |0\rangle_a|1\rangle_b \;.
+\hat{a}^\dagger_a \vert 0\rangle_a = \vert 1\rangle_a \;,\\[1ex]
+\hat{a}_a \vert 1\rangle_a = \vert 0\rangle_a \;, \\[1ex]
+\hat{a}^\dagger_b \vert 0\rangle_a \vert 0\rangle_b = \vert 0\rangle_a \vert 1\rangle_b \;.
 \end{array}
 $$
 
@@ -144,16 +144,16 @@ $$
 \end{pmatrix}, 
 $$
 
-where we used that our chosen $B$ matrix satisfies $B=B^{-1}$. Therefore, if we have an input state $|\Psi\rangle_{in} = |1\rangle_1|1\rangle_2$, we can calculate the output $|\Psi\rangle_{out}$ by using the previous relation.
+where we used that our chosen $B$ matrix satisfies $B=B^{-1}$. Therefore, if we have an input state $\vert\Psi\rangle_{in} = \vert 1\rangle_1 \vert 1\rangle_2$, we can calculate the output $\vert\Psi\rangle_{out}$ by using the previous relation.
 
 $$
 \begin{array}{ll}
-|\Psi\rangle_{in} \!\!\!\! & = |0\rangle_1|0\rangle_2 \\[1ex] 
-&= a^\dagger_1 a^\dagger_2 |0\rangle_1|0\rangle_2 \\[2ex]
-|ket{\Psi\rangle_{out} \!\!\!\! &= \frac{1}{2}(a^\dagger_3 + a^\dagger_4)(a^\dagger_3 - a^\dagger_4) |0\rangle_3|0\rangle_4\\[1ex]
-&= \frac{1}{2}(a^{\dagger 2}_3 + a^\dagger_4 a^\dagger_3 - a^\dagger_3a^\dagger_4 - a^{\dagger 2}_4) |0\rangle_3|0\rangle_4\\[1ex]
-&= \frac{1}{\sqrt{2}}(a^{\dagger 2}_3 - a^{\dagger 2}_4) |0\rangle_3|0\rangle_4\\[1ex]
-&= \frac{1}{\sqrt{2}}(|2\rangle_3|0\rangle_4 - |0\rangle_3|2\rangle_4) \\[1ex]
+\vert\Psi\rangle_{in} \!\!\!\! & = \vert 0\rangle_1 \vert 0\rangle_2 \\[1ex] 
+&= a^\dagger_1 a^\dagger_2 \vert 0\rangle_1 \vert 0\rangle_2 \\[2ex]
+\vert\Psi\rangle_{out} \!\!\!\! &= \frac{1}{2}(a^\dagger_3 + a^\dagger_4)(a^\dagger_3 - a^\dagger_4) \vert 0\rangle_3 \vert 0\rangle_4\\[1ex]
+&= \frac{1}{2}(a^{\dagger 2}_3 + a^\dagger_4 a^\dagger_3 - a^\dagger_3a^\dagger_4 - a^{\dagger 2}_4) \vert 0\rangle_3 \vert 0\rangle_4\\[1ex]
+&= \frac{1}{\sqrt{2}}(a^{\dagger 2}_3 - a^{\dagger 2}_4) \vert 0\rangle_3 \vert 0\rangle_4\\[1ex]
+&= \frac{1}{\sqrt{2}}(\vert 2\rangle_3 \vert 0\rangle_4 - \vert 0\rangle_3 \vert 2\rangle_4) \\[1ex]
 \end{array}
 $$
 
@@ -192,13 +192,13 @@ The experimental setup is depicted in Figure 4[^5]. We start by pumping a laser 
 
 As mentioned before, with the KDP crystal we generate photon pairs. But this process is not 100% efficient, so we will also need to discard the residual (or unconverted) pump laser photons with frequency $\omega_0$. The output state after this part will be a [Fock state](https://en.wikipedia.org/wiki/Fock_state) of the form 
 $$
-|\psi\rangle_{KDP}=|1\rangle_{L}|1\rangle_{U},
+\vert\psi\rangle_{KDP}=\vert 1\rangle_{L} \vert 1\rangle_{U},
 $$
 where the subindices $L$ and $U$ indicate the path taken by the photon. That is, we have one photon at the lower path, $L$, and other at the upper path, $U$, both with frequency $\omega_0/2$ in this case.
 
 After this photon pair generation process, the photons are introduced into a beam splitter, BS, where their probability amplitudes interfere as indicated in the previous section. The resulting entangled state has the form
 $$
-|\psi\rangle_{BS}=\frac{1}{\sqrt{2}}(|2\rangle_L|0\rangle_U - |0\rangle_L|2\rangle_U)
+\vert\psi\rangle_{BS}=\frac{1}{\sqrt{2}}(\vert 2\rangle_L \vert 0\rangle_U - \vert 0\rangle_L \vert 2\rangle_U)
 $$
 
 Lastly, the photons reach the detectors D1 and D2 and a coincidence counter processes the detections. In addition, by changing the position of the beam splitter, we are able to introduce a time delay (a path difference). This delay changes the temporal distinguishability of the photons and allows to visualize the interference pattern of this experiment. 
@@ -217,7 +217,7 @@ In Figure 5 the number of coincidences is shown as a function of this delay or p
 </div>
 </br>
 
-What we can see in this figure is that when we set the position of the beam splitter so that the time delay is zero (i.e., fully indistinguishable photons), the coincidence counts corresponding to the $|1\rangle_{L}|1\rangle_{U}$ state drop to zero. This is indicative of full interference of probability amplitudes and that the output state is $|\psi\rangle_{BS}$.
+What we can see in this figure is that when we set the position of the beam splitter so that the time delay is zero (i.e., fully indistinguishable photons), the coincidence counts corresponding to the $\vert 1\rangle_{L} \vert 1\rangle_{U}$ state drop to zero. This is indicative of full interference of probability amplitudes and that the output state is $\vert\psi\rangle_{BS}$.
 
 
 ## And the subtleties 
@@ -225,9 +225,9 @@ What we can see in this figure is that when we set the position of the beam spli
 
 What if the photons come from different light sources? What if the photons have different frequencies? Can we still have quantum interference? 
 
-The first question can be answered by considering that the wave function of the photons immediately before entering the beam splitter has the form $|\psi\rangle= |T_L\rangle_L |T_U\rangle_U$, with the single-photon wave functions being
+The first question can be answered by considering that the wave function of the photons immediately before entering the beam splitter has the form $\vert\psi\rangle= \vert T_L\rangle_L \vert T_U\rangle_U$, with the single-photon wave functions being
 $$
-|T_j\rangle_j = \int d\omega \,\phi_j(\omega) e^{i\omega T_j} \hat{a}^\dagger_j(\omega)|0\rangle.
+\vert T_j\rangle_j = \int d\omega \,\phi_j(\omega) e^{i\omega T_j} \hat{a}^\dagger_j(\omega) \vert 0\rangle.
 $$
 Here, $T_j$ ($j=L,U$) is the arrival time of the photon $j$ at the beam splitter, $\hat{a}^\dagger_j(\omega)$ is the creation operator of a photon with frequency $\omega$ and $\phi_j(\omega)$ is the mode function giving the probability amplitude of the state component with frequency $\omega$. With the purpose of being brief, I will not go into too much detail regarding the mathematical calculations, but the answer is that we can still have HOM interference with photons from independent sources. With the wave functions above, following the mathematical derivation shown at reference [^6], we can see that the [visibility](https://en.wikipedia.org/wiki/Interferometric_visibility) $\mathcal{V}$ of the HOM dip is given by:
 $$
