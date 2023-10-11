@@ -527,7 +527,8 @@ body:hover .visually-hidden button {
   /*color: mix(#fff, $gray, 25%);*/
   color: $link-color;
   text-decoration: none;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
+  font-weight: bold;
 }
 
 .footnotes {
@@ -543,11 +544,11 @@ body:hover .visually-hidden button {
 }
 
 a.footnote:before {
- content: "**[";
+ content: "[";
 }
 
 a.footnote:after {
-    content: "]**";
+    content: "]";
 }
 
 a.reversefootnote {
