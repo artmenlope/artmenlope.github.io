@@ -15,7 +15,6 @@ Along with [quantum superposition](https://en.wikipedia.org/wiki/Quantum_superpo
 
 One example of quantum interference is the Hong-Ou-Mandel effect (i.e., the HOM effect), which is of great importance in [linear optical quantum computing](https://en.wikipedia.org/wiki/Linear_optical_quantum_computing). This type of interference occurs when two photons with identical properties enter a balanced [beam splitter](https://en.wikipedia.org/wiki/Beam_splitter)  at the same time through different ports. Due to the indistinguishability of the photons, the probability amplitudes of the possible outcomes interfere destructively. This results in a bunching of the photons, or photon bunching. That is, the only possible outcomes are the ones where the photons travel through the same path.
 
-<div>
 <div align="center">
 <img src="/assets/images/2023-09-13/HOM-output.svg" height="170"/><br>
     <div style="text-align: center;">
@@ -23,7 +22,6 @@ One example of quantum interference is the Hong-Ou-Mandel effect (i.e., the HOM 
         <small>Figure 1: Possible outputs considering the HOM effect. Two identical photons enter the beam splitter through different ports and the two photons exit through the same path. </small>
         </div>
     </div>
-</div>
 </div>
 
 
@@ -54,7 +52,6 @@ $$
 
 We must also take into account that there is a relative phase between the reflected and transmitted light [^2]. Therefore, if the relative phase acquired by the reflected light that came through one input port of the beam splitter is $\Delta\theta_{1}$ and the one acquired by the reflected light that came through the other input port is $\Delta\theta_{2}$, they must satisfy $\Delta\theta_{1} + \Delta\theta_{2} = \pm\pi$ [^3]. Typically, there are two popular cases in the literature: if the beam splitter is symmetric in phase shifts, $\Delta\theta_{1} = \Delta\theta_{2} = \pm\pi/2$; if the beam splitter is not symmetric in phase shifts, $\Delta\theta_{1} = \pm\pi$ and $\Delta\theta_{2} = 0$ or $\Delta\theta_{1} = 0$ and $\Delta\theta_{2} = \pm\pi$ [^4]. 
 
-<div>
 <div align="center">
 <img src="/assets/images/2023-09-13/BeamSplitter_2.svg" height="170"/><br>
     <div style="text-align: center;">
@@ -62,7 +59,6 @@ We must also take into account that there is a relative phase between the reflec
         <small>Figure 2: Beam splitter diagram with the ladder operators of each path. </small>
         </div>
     </div>
-</div>
 </div>
 <br>
 
@@ -159,7 +155,6 @@ $$
 
 These calculations can be described visually by Figure 3. We can see that the case where both photons are transmitted interferes destructively with the case where both photons are reflected. This results in a cancellation of said components, leaving behind the bunched cases where the photons exit through the same port of the beam splitter. With this, we have an output state that is [entangled](https://en.wikipedia.org/wiki/Quantum_entanglement).
 
-<div>
 <div align="center">
 <img src="/assets/images/2023-09-13/HOM-components_2.svg" height="170"/><br>
     <div style="text-align: center;">
@@ -167,7 +162,6 @@ These calculations can be described visually by Figure 3. We can see that the ca
         <small>Figure 3: Destructive interference of probability amplitudes in the HOM effect.</small>
         </div>
     </div>
-</div>
 </div>
 
 
@@ -179,7 +173,6 @@ We have seen the basic theory behind the HOM effect. Now, we will dive a bit int
 
 The experimental setup is depicted in Figure 4 [^5]. We start by pumping a laser with frequency $\omega_0$ at a [KDP crystal](https://en.wikipedia.org/wiki/Monopotassium_phosphate) (potassium dihydrogen phosphate crystal). This generates, with some efficiency, two photons per incoming laser photon. These two new photons have lower frequencies compared with that of the incoming photon. If one frequency is $\omega_1$ and the other is $\omega_2$, these satisfy $\omega_0=\omega_1+\omega_2$ via energy conservation. This process is known as [spontaneous parametric down conversion](https://en.wikipedia.org/wiki/Spontaneous_parametric_down-conversion) (SPDC). In this case, we will be dealing with output photons with frequencies that satisfy $\omega_1=\omega_2=\omega_0/2$. Nevertheless, it is important to note that these photons will have some frequency bandwidth.
 
-<div>
 <div align="center">
 <img src="/assets/images/2023-09-13/HOM setup.svg" height="220"/><br>
     <div style="text-align: center;">
@@ -187,7 +180,6 @@ The experimental setup is depicted in Figure 4 [^5]. We start by pumping a laser
         <small>Figure 4: Setup shown at the original paper by C. K. Hong <i>et al</i>. (1987).</small>
         </div>
     </div>
-</div>
 </div>
 <br>
 
@@ -209,7 +201,6 @@ Lastly, the photons reach the detectors D1 and D2 and a coincidence counter proc
 
 In Figure 5 the number of coincidences is shown as a function of this delay or path difference. We can see a very characteristic interference pattern, which is known as the HOM dip. 
 
-<div>
 <div align="center">
 <img src="/assets/images/2023-09-13/HOM plot.svg" height="220"/><br>
     <div style="text-align: center;">
@@ -217,7 +208,6 @@ In Figure 5 the number of coincidences is shown as a function of this delay or p
         <small>Figure 5: HOM dip from the original paper by C. K. Hong <i>et al</i>. (1987).</small>
         </div>
     </div>
-</div>
 </div>
 <br>
 
@@ -252,7 +242,6 @@ The equal sign is reached when the mode functions satisfy $\phi_L(\omega)=\phi_U
 
 Now, we will address the second question. With a very similar setup to the one of the previous section but where the SPDC process generates photons with different central frequencies, we can also measure interference. However, in this case, we will observe a beating pattern as shown in Figure 6.
 
-<div>
 <div align="center">
 <img src="/assets/images/2023-09-13/beating plot.svg" height="250"/><br>
     <div style="text-align: center;">
@@ -260,7 +249,6 @@ Now, we will address the second question. With a very similar setup to the one o
         <small>Figure 6: Quantum beating pattern from the paper by Z. Y. Ou & L. Mandel (1988).</small>
         </div>
     </div>
-</div>
 </div>
 <br>
 
