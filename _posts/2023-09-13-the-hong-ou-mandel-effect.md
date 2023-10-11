@@ -64,7 +64,7 @@ We must also take into account that there is a relative phase between the reflec
     </div>
 </div>
 </div>
-</br>
+<br>
 
 With all of this, the action of a beam splitter would be represented with ladder operators as follows:
 
@@ -150,9 +150,8 @@ $$
 \begin{array}{ll}
 |\Psi\rangle_{in} \!\!\!\! & = |0\rangle_1|0\rangle_2 \\[1ex] 
 &= a^\dagger_1 a^\dagger_2 |0\rangle_1|0\rangle_2 \\[2ex]
-\ket{\Psi}_{out} \!\!\!\! &= \frac{1}{2}(a^\dagger_3 + a^\dagger_4)(a^\dagger_3 - a^\dagger_4) |0\rangle_3|0\rangle_4\\[1ex]
+|ket{\Psi\rangle_{out} \!\!\!\! &= \frac{1}{2}(a^\dagger_3 + a^\dagger_4)(a^\dagger_3 - a^\dagger_4) |0\rangle_3|0\rangle_4\\[1ex]
 &= \frac{1}{2}(a^{\dagger 2}_3 + a^\dagger_4 a^\dagger_3 - a^\dagger_3a^\dagger_4 - a^{\dagger 2}_4) |0\rangle_3|0\rangle_4\\[1ex]
-&= \frac{1}{2}(a^{\dagger 2}_3 + \cancel{a^\dagger_3 a^\dagger_4} - \cancel{a^\dagger_3a^\dagger_4} - a^{\dagger 2}_4) |0\rangle_3|0\rangle_4\\[1ex]
 &= \frac{1}{\sqrt{2}}(a^{\dagger 2}_3 - a^{\dagger 2}_4) |0\rangle_3|0\rangle_4\\[1ex]
 &= \frac{1}{\sqrt{2}}(|2\rangle_3|0\rangle_4 - |0\rangle_3|2\rangle_4) \\[1ex]
 \end{array}
