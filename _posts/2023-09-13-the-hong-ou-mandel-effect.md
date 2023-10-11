@@ -18,7 +18,7 @@ One example of quantum interference is the Hong-Ou-Mandel effect (i.e., the HOM 
 
 <div>
 <div align="center">
-<img src="/assets/images/2023-09-13/HOM-output.svg" height="170"/></br>
+<img src="/assets/images/2023-09-13/HOM-output.svg" height="170"/><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: left; width:80%;">
         <small>Figure 1: Possible outputs considering the HOM effect. Two identical photons enter the beam splitter through different ports and the two photons exit through the same path. </small>
@@ -29,6 +29,7 @@ One example of quantum interference is the Hong-Ou-Mandel effect (i.e., the HOM 
 
 
 ## The theory 
+
 <i class="fa-solid fa-hat-cowboy"></i>
 
 Now, we will take a look at the main idea behind this effect. We will start by considering a simple quantum description of a balanced beam splitter. A balanced beam splitter is a device that reflects the 50% of the incoming light and transmits the other 50%. At the quantum level, this means that a photon will be reflected with 50% probability and transmitted with 50% probability. 
@@ -56,7 +57,7 @@ We must also take into account that there is a relative phase between the reflec
 
 <div>
 <div align="center">
-<img src="/assets/images/2023-09-13/BeamSplitter_2.svg" height="170"/></br>
+<img src="/assets/images/2023-09-13/BeamSplitter_2.svg" height="170"/><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 2: Beam splitter diagram with the ladder operators of each path. </small>
@@ -161,7 +162,7 @@ These calculations can be described visually by Figure 3. We can see that the ca
 
 <div>
 <div align="center">
-<img src="/assets/images/2023-09-13/HOM-components_2.svg" height="170"/></br>
+<img src="/assets/images/2023-09-13/HOM-components_2.svg" height="170"/><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 3: Destructive interference of probability amplitudes in the HOM effect.</small>
@@ -172,6 +173,7 @@ These calculations can be described visually by Figure 3. We can see that the ca
 
 
 ## The experiments 
+
 <i class="fa-solid fa-hat-cowboy-side"></i>
 
 We have seen the basic theory behind the HOM effect. Now, we will dive a bit into the original experiment by Chung Ki Hong, Zheyu Ou and Leonard Mandel.
@@ -180,7 +182,7 @@ The experimental setup is depicted in Figure 4[^5]. We start by pumping a laser 
 
 <div>
 <div align="center">
-<img src="/assets/images/2023-09-13/HOM setup.svg" height="220"/></br>
+<img src="/assets/images/2023-09-13/HOM setup.svg" height="220"/><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 4: Setup shown at the original paper by C. K. Hong <i>et al</i>. (1987).</small>
@@ -188,15 +190,18 @@ The experimental setup is depicted in Figure 4[^5]. We start by pumping a laser 
     </div>
 </div>
 </div>
-</br>
+<br>
 
 As mentioned before, with the KDP crystal we generate photon pairs. But this process is not 100% efficient, so we will also need to discard the residual (or unconverted) pump laser photons with frequency $\omega_0$. The output state after this part will be a [Fock state](https://en.wikipedia.org/wiki/Fock_state) of the form 
+
 $$
 \vert\psi\rangle_{KDP}=\vert 1\rangle_{L} \vert 1\rangle_{U},
 $$
+
 where the subindices $L$ and $U$ indicate the path taken by the photon. That is, we have one photon at the lower path, $L$, and other at the upper path, $U$, both with frequency $\omega_0/2$ in this case.
 
 After this photon pair generation process, the photons are introduced into a beam splitter, BS, where their probability amplitudes interfere as indicated in the previous section. The resulting entangled state has the form
+
 $$
 \vert\psi\rangle_{BS}=\frac{1}{\sqrt{2}}(\vert 2\rangle_L \vert 0\rangle_U - \vert 0\rangle_L \vert 2\rangle_U)
 $$
@@ -207,7 +212,7 @@ In Figure 5 the number of coincidences is shown as a function of this delay or p
 
 <div>
 <div align="center">
-<img src="/assets/images/2023-09-13/HOM plot.svg" height="220"/></br>
+<img src="/assets/images/2023-09-13/HOM plot.svg" height="220"/><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 5: HOM dip from the original paper by C. K. Hong <i>et al</i>. (1987).</small>
@@ -215,25 +220,31 @@ In Figure 5 the number of coincidences is shown as a function of this delay or p
     </div>
 </div>
 </div>
-</br>
+<br>
 
 What we can see in this figure is that when we set the position of the beam splitter so that the time delay is zero (i.e., fully indistinguishable photons), the coincidence counts corresponding to the $\vert 1\rangle_{L} \vert 1\rangle_{U}$ state drop to zero. This is indicative of full interference of probability amplitudes and that the output state is $\vert\psi\rangle_{BS}$.
 
 
 ## And the subtleties 
+
 <i class="fa-brands fa-redhat"></i>
 
 What if the photons come from different light sources? What if the photons have different frequencies? Can we still have quantum interference? 
 
 The first question can be answered by considering that the wave function of the photons immediately before entering the beam splitter has the form $\vert\psi\rangle= \vert T_L\rangle_L \vert T_U\rangle_U$, with the single-photon wave functions being
+
 $$
 \vert T_j\rangle_j = \int d\omega \,\phi_j(\omega) e^{i\omega T_j} \hat{a}^\dagger_j(\omega) \vert 0\rangle.
 $$
+
 Here, $T_j$ ($j=L,U$) is the arrival time of the photon $j$ at the beam splitter, $\hat{a}^\dagger_j(\omega)$ is the creation operator of a photon with frequency $\omega$ and $\phi_j(\omega)$ is the mode function giving the probability amplitude of the state component with frequency $\omega$. With the purpose of being brief, I will not go into too much detail regarding the mathematical calculations, but the answer is that we can still have HOM interference with photons from independent sources. With the wave functions above, following the mathematical derivation shown at reference [^6], we can see that the [visibility](https://en.wikipedia.org/wiki/Interferometric_visibility) $\mathcal{V}$ of the HOM dip is given by:
+
 $$
 \mathcal{V}(T_L-T_U-D/c)=\left|\int d\omega \phi_L^*(\omega)\phi_U(\omega)e^{i\omega (T_L-T_U-D/c)}\right|^2\leq 1,
 $$
+
 where $D/c$ is the delay introduced by changing the position of the beam splitter by a distance $D$. When the paths are balanced with $D/c=T_L-T_U$, it can be more clearly seen that the visibility depends on the mode overlap:
+
 $$
 \mathcal{V}(0)=\left|\int d\omega \phi_L^*(\omega)\phi_U(\omega)\right|^2\leq 1.
 $$
@@ -244,7 +255,7 @@ Now, we will address the second question. With a very similar setup to the one o
 
 <div>
 <div align="center">
-<img src="/assets/images/2023-09-13/beating plot.svg" height="250"/></br>
+<img src="/assets/images/2023-09-13/beating plot.svg" height="250"/><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 6: Quantum beating pattern from the paper by Z. Y. Ou & L. Mandel (1988).</small>
