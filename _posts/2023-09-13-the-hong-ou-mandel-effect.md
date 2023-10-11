@@ -28,7 +28,8 @@ One example of quantum interference is the Hong-Ou-Mandel effect (i.e., the HOM 
 </div>
 
 
-## The theory <i class="fa-solid fa-hat-cowboy"></i>
+## The theory 
+<i class="fa-solid fa-hat-cowboy"></i>
 
 Now, we will take a look at the main idea behind this effect. We will start by considering a simple quantum description of a balanced beam splitter. A balanced beam splitter is a device that reflects the 50% of the incoming light and transmits the other 50%. At the quantum level, this means that a photon will be reflected with 50% probability and transmitted with 50% probability. 
 
@@ -143,16 +144,17 @@ $$
 \end{pmatrix}, 
 $$
 
-where we used that our chosen $B$ matrix satisfies $B=B^{-1}$. Therefore, if we have an input state $\ket{\Psi}_{in} = \ket{1}_1\ket{1}_2$, we can calculate the output $\ket{\Psi}_{out}$ by using the previous relation.
+where we used that our chosen $B$ matrix satisfies $B=B^{-1}$. Therefore, if we have an input state $|\Psi\rangle_{in} = |1\rangle_1|1\rangle_2$, we can calculate the output $|\Psi\rangle_{out}$ by using the previous relation.
 
 $$
 \begin{array}{ll}
-\ket{\Psi}_{in} \!\!\!\! & = \ket{1}_1\ket{1}_2 \\[1ex]&=a^\dagger_1 a^\dagger_2 \ket{0}_1\ket{0}_2 \\[2ex]
-\ket{\Psi}_{out} \!\!\!\! &= \frac{1}{2}(a^\dagger_3 + a^\dagger_4)(a^\dagger_3 - a^\dagger_4) \ket{0}_3\ket{0}_4\\[1ex]
-&= \frac{1}{2}(a^{\dagger 2}_3 + a^\dagger_4 a^\dagger_3 - a^\dagger_3a^\dagger_4 - a^{\dagger 2}_4) \ket{0}_3\ket{0}_4\\[1ex]
-&= \frac{1}{2}(a^{\dagger 2}_3 + \cancel{a^\dagger_3 a^\dagger_4} - \cancel{a^\dagger_3a^\dagger_4} - a^{\dagger 2}_4) \ket{0}_3\ket{0}_4\\[1ex]
-&= \frac{1}{\sqrt{2}}(a^{\dagger 2}_3 - a^{\dagger 2}_4) \ket{0}_3\ket{0}_4\\[1ex]
-&= \frac{1}{\sqrt{2}}(\ket{2}_3\ket{0}_4 - \ket{0}_3\ket{2}_4) \\[1ex]
+|\Psi\rangle_{in} \!\!\!\! & = |0\rangle_1|0\rangle_2 \\[1ex] 
+&= a^\dagger_1 a^\dagger_2 |0\rangle_1|0\rangle_2 \\[2ex]
+\ket{\Psi}_{out} \!\!\!\! &= \frac{1}{2}(a^\dagger_3 + a^\dagger_4)(a^\dagger_3 - a^\dagger_4) |0\rangle_3|0\rangle_4\\[1ex]
+&= \frac{1}{2}(a^{\dagger 2}_3 + a^\dagger_4 a^\dagger_3 - a^\dagger_3a^\dagger_4 - a^{\dagger 2}_4) |0\rangle_3|0\rangle_4\\[1ex]
+&= \frac{1}{2}(a^{\dagger 2}_3 + \cancel{a^\dagger_3 a^\dagger_4} - \cancel{a^\dagger_3a^\dagger_4} - a^{\dagger 2}_4) |0\rangle_3|0\rangle_4\\[1ex]
+&= \frac{1}{\sqrt{2}}(a^{\dagger 2}_3 - a^{\dagger 2}_4) |0\rangle_3|0\rangle_4\\[1ex]
+&= \frac{1}{\sqrt{2}}(|2\rangle_3|0\rangle_4 - |0\rangle_3|2\rangle_4) \\[1ex]
 \end{array}
 $$
 
@@ -170,7 +172,8 @@ These calculations can be described visually by Figure 3. We can see that the ca
 </div>
 
 
-## The experiments <i class="fa-solid fa-hat-cowboy-side"></i>
+## The experiments 
+<i class="fa-solid fa-hat-cowboy-side"></i>
 
 We have seen the basic theory behind the HOM effect. Now, we will dive a bit into the original experiment by Chung Ki Hong, Zheyu Ou and Leonard Mandel.
 
@@ -190,13 +193,13 @@ The experimental setup is depicted in Figure 4[^5]. We start by pumping a laser 
 
 As mentioned before, with the KDP crystal we generate photon pairs. But this process is not 100% efficient, so we will also need to discard the residual (or unconverted) pump laser photons with frequency $\omega_0$. The output state after this part will be a [Fock state](https://en.wikipedia.org/wiki/Fock_state) of the form 
 $$
-\ket{\psi}_{KDP}=\ket{1}_{L}\ket{1}_{U},
+|\psi\rangle_{KDP}=|1\rangle_{L}|1\rangle_{U},
 $$
 where the subindices $L$ and $U$ indicate the path taken by the photon. That is, we have one photon at the lower path, $L$, and other at the upper path, $U$, both with frequency $\omega_0/2$ in this case.
 
 After this photon pair generation process, the photons are introduced into a beam splitter, BS, where their probability amplitudes interfere as indicated in the previous section. The resulting entangled state has the form
 $$
-\ket{\psi}_{BS}=\frac{1}{\sqrt{2}}(\ket{2}_L\ket{0}_U - \ket{0}_L\ket{2}_U)
+|\psi\rangle_{BS}=\frac{1}{\sqrt{2}}(|2\rangle_L|0\rangle_U - |0\rangle_L|2\rangle_U)
 $$
 
 Lastly, the photons reach the detectors D1 and D2 and a coincidence counter processes the detections. In addition, by changing the position of the beam splitter, we are able to introduce a time delay (a path difference). This delay changes the temporal distinguishability of the photons and allows to visualize the interference pattern of this experiment. 
@@ -215,16 +218,17 @@ In Figure 5 the number of coincidences is shown as a function of this delay or p
 </div>
 </br>
 
-What we can see in this figure is that when we set the position of the beam splitter so that the time delay is zero (i.e., fully indistinguishable photons), the coincidence counts corresponding to the $\ket{1}_{L}\ket{1}_{U}$ state drop to zero. This is indicative of full interference of probability amplitudes and that the output state is $\ket{\psi}_{BS}$.
+What we can see in this figure is that when we set the position of the beam splitter so that the time delay is zero (i.e., fully indistinguishable photons), the coincidence counts corresponding to the $|1\rangle_{L}|1\rangle_{U}$ state drop to zero. This is indicative of full interference of probability amplitudes and that the output state is $|\psi\rangle_{BS}$.
 
 
-## And the subtleties <i class="fa-brands fa-redhat"></i>
+## And the subtleties 
+<i class="fa-brands fa-redhat"></i>
 
 What if the photons come from different light sources? What if the photons have different frequencies? Can we still have quantum interference? 
 
-The first question can be answered by considering that the wave function of the photons immediately before entering the beam splitter has the form $\ket{\psi}= \ket{T_L}_L\ket{T_U}_U$, with the single-photon wave functions being
+The first question can be answered by considering that the wave function of the photons immediately before entering the beam splitter has the form $|\psi\rangle= |T_L\rangle_L |T_U\rangle_U$, with the single-photon wave functions being
 $$
-\ket{T_j}_j = \int d\omega \,\phi_j(\omega) e^{i\omega T_j} \hat{a}^\dagger_j(\omega)\ket{0}.
+|T_j\rangle_j = \int d\omega \,\phi_j(\omega) e^{i\omega T_j} \hat{a}^\dagger_j(\omega)|0\rangle.
 $$
 Here, $T_j$ ($j=L,U$) is the arrival time of the photon $j$ at the beam splitter, $\hat{a}^\dagger_j(\omega)$ is the creation operator of a photon with frequency $\omega$ and $\phi_j(\omega)$ is the mode function giving the probability amplitude of the state component with frequency $\omega$. With the purpose of being brief, I will not go into too much detail regarding the mathematical calculations, but the answer is that we can still have HOM interference with photons from independent sources. With the wave functions above, following the mathematical derivation shown at reference [^6], we can see that the [visibility](https://en.wikipedia.org/wiki/Interferometric_visibility) $\mathcal{V}$ of the HOM dip is given by:
 $$
