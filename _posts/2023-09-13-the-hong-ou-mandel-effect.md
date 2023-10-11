@@ -18,7 +18,7 @@ One example of quantum interference is the Hong-Ou-Mandel effect (i.e., the HOM 
 
 <div>
 <div align="center">
-<img src="/assets/images/2023-09-13/HOM-output.svg" height="170"/><br>
+<img src="/assets/images/2023-09-13/HOM-output.svg" height="100"/><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: left; width:80%;">
         <small>Figure 1: Possible outputs considering the HOM effect. Two identical photons enter the beam splitter through different ports and the two photons exit through the same path. </small>
@@ -57,7 +57,7 @@ We must also take into account that there is a relative phase between the reflec
 
 <div>
 <div align="center">
-<img src="/assets/images/2023-09-13/BeamSplitter_2.svg" height="170"/><br>
+<img src="/assets/images/2023-09-13/BeamSplitter_2.svg" height="100"/><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 2: Beam splitter diagram with the ladder operators of each path. </small>
@@ -162,7 +162,7 @@ These calculations can be described visually by Figure 3. We can see that the ca
 
 <div>
 <div align="center">
-<img src="/assets/images/2023-09-13/HOM-components_2.svg" height="170"/><br>
+<img src="/assets/images/2023-09-13/HOM-components_2.svg" height="100"/><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 3: Destructive interference of probability amplitudes in the HOM effect.</small>
@@ -182,7 +182,7 @@ The experimental setup is depicted in Figure 4[^5]. We start by pumping a laser 
 
 <div>
 <div align="center">
-<img src="/assets/images/2023-09-13/HOM setup.svg" height="220"/><br>
+<img src="/assets/images/2023-09-13/HOM setup.svg" height="120"/><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 4: Setup shown at the original paper by C. K. Hong <i>et al</i>. (1987).</small>
@@ -212,7 +212,7 @@ In Figure 5 the number of coincidences is shown as a function of this delay or p
 
 <div>
 <div align="center">
-<img src="/assets/images/2023-09-13/HOM plot.svg" height="220"/><br>
+<img src="/assets/images/2023-09-13/HOM plot.svg" height="120"/><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 5: HOM dip from the original paper by C. K. Hong <i>et al</i>. (1987).</small>
@@ -255,7 +255,7 @@ Now, we will address the second question. With a very similar setup to the one o
 
 <div>
 <div align="center">
-<img src="/assets/images/2023-09-13/beating plot.svg" height="250"/><br>
+<img src="/assets/images/2023-09-13/beating plot.svg" height="150"/><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 6: Quantum beating pattern from the paper by Z. Y. Ou & L. Mandel (1988).</small>
