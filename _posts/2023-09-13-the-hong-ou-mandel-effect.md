@@ -15,8 +15,11 @@ Along with [quantum superposition](https://en.wikipedia.org/wiki/Quantum_superpo
 
 One example of quantum interference is the Hong-Ou-Mandel effect (i.e., the HOM effect), which is of great importance in [linear optical quantum computing](https://en.wikipedia.org/wiki/Linear_optical_quantum_computing). This type of interference occurs when two photons with identical properties enter a balanced [beam splitter](https://en.wikipedia.org/wiki/Beam_splitter)  at the same time through different ports. Due to the indistinguishability of the photons, the probability amplitudes of the possible outcomes interfere destructively. This results in a bunching of the photons, or photon bunching. That is, the only possible outcomes are the ones where the photons travel through the same path.
 
+
+![fig-1](/assets/images/2023-09-13/HOM-output.png){:height="100"; style="display:block; margin-left:auto; margin-right:auto"}
+
 <div align="center">
-<img src="/assets/images/2023-09-13/HOM-output.png" height="170"/><br>
+<img src="/assets/images/2023-09-13/HOM-output.png" height="170"><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: left; width:80%;">
         <small>Figure 1: Possible outputs considering the HOM effect. Two identical photons enter the beam splitter through different ports and the two photons exit through the same path. </small>
