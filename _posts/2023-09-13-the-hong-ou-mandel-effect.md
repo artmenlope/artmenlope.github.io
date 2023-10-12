@@ -53,7 +53,7 @@ $$
 We must also take into account that there is a relative phase between the reflected and transmitted light [^2]. Therefore, if the relative phase acquired by the reflected light that came through one input port of the beam splitter is $\Delta\theta_{1}$ and the one acquired by the reflected light that came through the other input port is $\Delta\theta_{2}$, they must satisfy $\Delta\theta_{1} + \Delta\theta_{2} = \pm\pi$ [^3]. Typically, there are two popular cases in the literature: if the beam splitter is symmetric in phase shifts, $\Delta\theta_{1} = \Delta\theta_{2} = \pm\pi/2$; if the beam splitter is not symmetric in phase shifts, $\Delta\theta_{1} = \pm\pi$ and $\Delta\theta_{2} = 0$ or $\Delta\theta_{1} = 0$ and $\Delta\theta_{2} = \pm\pi$ [^4]. 
 
 <div align="center">
-<img src="/assets/images/2023-09-13/BeamSplitter_2.png" height="170"/><br>
+<img src="/assets/images/2023-09-13/BeamSplitter_2.png" width="30%"><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 2: Beam splitter diagram with the ladder operators of each path. </small>
@@ -156,7 +156,7 @@ $$
 These calculations can be described visually by Figure 3. We can see that the case where both photons are transmitted interferes destructively with the case where both photons are reflected. This results in a cancellation of said components, leaving behind the bunched cases where the photons exit through the same port of the beam splitter. With this, we have an output state that is [entangled](https://en.wikipedia.org/wiki/Quantum_entanglement).
 
 <div align="center">
-<img src="/assets/images/2023-09-13/HOM-components_2.png" height="170"/><br>
+<img src="/assets/images/2023-09-13/HOM-components_2.png" height="170"><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 3: Destructive interference of probability amplitudes in the HOM effect.</small>
@@ -174,7 +174,7 @@ We have seen the basic theory behind the HOM effect. Now, we will dive a bit int
 The experimental setup is depicted in Figure 4 [^5]. We start by pumping a laser with frequency $\omega_0$ at a [KDP crystal](https://en.wikipedia.org/wiki/Monopotassium_phosphate) (potassium dihydrogen phosphate crystal). This generates, with some efficiency, two photons per incoming laser photon. These two new photons have lower frequencies compared with that of the incoming photon. If one frequency is $\omega_1$ and the other is $\omega_2$, these satisfy $\omega_0=\omega_1+\omega_2$ via energy conservation. This process is known as [spontaneous parametric down conversion](https://en.wikipedia.org/wiki/Spontaneous_parametric_down-conversion) (SPDC). In this case, we will be dealing with output photons with frequencies that satisfy $\omega_1=\omega_2=\omega_0/2$. Nevertheless, it is important to note that these photons will have some frequency bandwidth.
 
 <div align="center">
-<img src="/assets/images/2023-09-13/HOM setup.png" height="300"/><br>
+<img src="/assets/images/2023-09-13/HOM setup.png" width="70%"><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 4: Setup shown at the original paper by C. K. Hong <i>et al</i>. (1987).</small>
@@ -202,7 +202,7 @@ Lastly, the photons reach the detectors D1 and D2 and a coincidence counter proc
 In Figure 5 the number of coincidences is shown as a function of this delay or path difference. We can see a very characteristic interference pattern, which is known as the HOM dip. 
 
 <div align="center">
-<img src="/assets/images/2023-09-13/HOM plot.png" height="300"/><br>
+<img src="/assets/images/2023-09-13/HOM plot.png" width="70%"><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 5: HOM dip from the original paper by C. K. Hong <i>et al</i>. (1987).</small>
@@ -243,7 +243,7 @@ The equal sign is reached when the mode functions satisfy $\phi_L(\omega)=\phi_U
 Now, we will address the second question. With a very similar setup to the one of the previous section but where the SPDC process generates photons with different central frequencies, we can also measure interference. However, in this case, we will observe a beating pattern as shown in Figure 6.
 
 <div align="center">
-<img src="/assets/images/2023-09-13/beating plot.png" height="300"/><br>
+<img src="/assets/images/2023-09-13/beating plot.png" width="70%"><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 6: Quantum beating pattern from the paper by Z. Y. Ou & L. Mandel (1988).</small>
