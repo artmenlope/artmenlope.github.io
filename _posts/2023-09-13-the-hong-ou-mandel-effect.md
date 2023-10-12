@@ -26,8 +26,10 @@ One example of quantum interference is the Hong-Ou-Mandel effect (i.e., the HOM 
 
 
 ## The theory 
-
+<img src="/assets/images/2023-09-13/hat-cowboy-solid-theory.png" width="53" height="43">
+<!--
 <i class="fa-solid fa-hat-cowboy"></i>
+-->
 
 Now, we will take a look at the main idea behind this effect. We will start by considering a simple quantum description of a balanced beam splitter. A balanced beam splitter is a device that reflects the 50% of the incoming light and transmits the other 50%. At the quantum level, this means that a photon will be reflected with 50% probability and transmitted with 50% probability. 
 
@@ -166,8 +168,10 @@ These calculations can be described visually by Figure 3. We can see that the ca
 
 
 ## The experiments 
-
+<img src="/assets/images/2023-09-13/hat-cowboy-side-solid-experiments.png" width="53" height="43">
+<!--
 <i class="fa-solid fa-hat-cowboy-side"></i>
+-->
 
 We have seen the basic theory behind the HOM effect. Now, we will dive a bit into the original experiment by Chung Ki Hong, Zheyu Ou and Leonard Mandel.
 
@@ -215,8 +219,10 @@ What we can see in this figure is that when we set the position of the beam spli
 
 
 ## And the subtleties 
-
+<img src="/assets/images/2023-09-13/redhat-subtleties.png" width="43" height="43">
+<!--
 <i class="fa-brands fa-redhat"></i>
+-->
 
 What if the photons come from different light sources? What if the photons have different frequencies? Can we still have quantum interference? 
 
