@@ -4,6 +4,8 @@ main:
   url: "/"
 - title: "Papers"
   url: "https://scholar.google.com/citations?user=ekaiL6kAAAAJ"
+- title: "Posts"
+  url: /year-archive/
 - title: "Résumé"
   url: "/resume/"
 - title: "Other"
