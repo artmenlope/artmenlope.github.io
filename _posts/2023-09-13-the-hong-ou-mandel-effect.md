@@ -11,6 +11,9 @@ header:
   teaser: /assets/images/2023-09-13/hom-effect-thumbnail.jpg
 ---
 
+
+## Introduction
+
 Along with [quantum superposition](https://en.wikipedia.org/wiki/Quantum_superposition) and [quantum entanglement](https://en.wikipedia.org/wiki/Quantum_entanglement), quantum interference is one of the most important phenomena used in quantum information processing or quantum computing. In this case, quantum interference refers to the interference of [probability amplitudes](https://en.wikipedia.org/wiki/Probability_amplitude#Examples). However, it is not always mentioned when discussing such topics [^1]. 
 
 One example of quantum interference is the Hong-Ou-Mandel effect (i.e., the HOM effect), which is of great importance in [linear optical quantum computing](https://en.wikipedia.org/wiki/Linear_optical_quantum_computing). This type of interference occurs when two photons with identical properties enter a balanced [beam splitter](https://en.wikipedia.org/wiki/Beam_splitter)  at the same time through different ports. Due to the indistinguishability of the photons, the probability amplitudes of the possible outcomes interfere destructively. This results in a bunching of the photons, or photon bunching. That is, the only possible outcomes are the ones where the photons travel through the same path.
@@ -25,10 +28,10 @@ One example of quantum interference is the Hong-Ou-Mandel effect (i.e., the HOM 
 </div>
 
 
-## The theory 
-<img src="/assets/images/2023-09-13/hat-cowboy-solid-theory.png" width="53" height="43">
-<!--
-<i class="fa-solid fa-hat-cowboy"></i>
+## The theory
+
+<!-- <i class="fa-solid fa-hat-cowboy"></i> 
+<img src="/assets/images/2023-09-13/hat-cowboy-solid-theory.png" width="43" height="30">
 -->
 
 Now, we will take a look at the main idea behind this effect. We will start by considering a simple quantum description of a balanced beam splitter. A balanced beam splitter is a device that reflects the 50% of the incoming light and transmits the other 50%. At the quantum level, this means that a photon will be reflected with 50% probability and transmitted with 50% probability. 
@@ -168,8 +171,9 @@ These calculations can be described visually by Figure 3. We can see that the ca
 
 
 ## The experiments 
-<img src="/assets/images/2023-09-13/hat-cowboy-side-solid-experiments.png" width="53" height="43">
+
 <!--
+<img src="/assets/images/2023-09-13/hat-cowboy-side-solid-experiments.png" width="53" height="43">
 <i class="fa-solid fa-hat-cowboy-side"></i>
 -->
 
@@ -219,8 +223,9 @@ What we can see in this figure is that when we set the position of the beam spli
 
 
 ## And the subtleties 
-<img src="/assets/images/2023-09-13/redhat-subtleties.png" width="43" height="43">
+
 <!--
+<img src="/assets/images/2023-09-13/redhat-subtleties.png" width="43" height="43">
 <i class="fa-brands fa-redhat"></i>
 -->
 
