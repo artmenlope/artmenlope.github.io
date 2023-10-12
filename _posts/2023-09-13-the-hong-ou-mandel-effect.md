@@ -265,8 +265,7 @@ Now, we will address the second question. With a very similar setup to the one o
 
 Said pattern is the result of the experiment described in reference [^7]. There, the photons have central frequencies $\omega_1=\omega$ and $\omega_2=\omega_0-\omega$. An additional difference between the setup of this experiment and the one described in the previous section is that the two interference filters IF1 and IF2 shown in Figure 4 are centered on different frequencies this time. These frequencies are $\omega_1$ for IF1 and $\omega_2$ for IF2. Furthermore, the [passbands](https://en.wikipedia.org/wiki/Passband) of the filters do not overlap. This way, it is sure that different frequency components are being measured.
 
-
-## References
+## References <img src="/assets/images/2023-09-13/redhat-subtleties.png" align="right" width="30" height="30"> <img src="/assets/images/2023-09-13/redhat-subtleties.png" align="right" width="30" height="30"> <img src="/assets/images/2023-09-13/redhat-subtleties.png" align="right" width="30" height="30">
 
 [^1]: [Classiq Technologies. (2022). Interference in quantum computing. *Classiq*. https://www.classiq.io/insights/interference-in-quantum-computing](https://www.classiq.io/insights/interference-in-quantum-computing)
 
