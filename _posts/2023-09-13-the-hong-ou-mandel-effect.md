@@ -16,7 +16,7 @@ Along with [quantum superposition](https://en.wikipedia.org/wiki/Quantum_superpo
 One example of quantum interference is the Hong-Ou-Mandel effect (i.e., the HOM effect), which is of great importance in [linear optical quantum computing](https://en.wikipedia.org/wiki/Linear_optical_quantum_computing). This type of interference occurs when two photons with identical properties enter a balanced [beam splitter](https://en.wikipedia.org/wiki/Beam_splitter)  at the same time through different ports. Due to the indistinguishability of the photons, the probability amplitudes of the possible outcomes interfere destructively. This results in a bunching of the photons, or photon bunching. That is, the only possible outcomes are the ones where the photons travel through the same path.
 
 <div align="center">
-<img src="/assets/images/2023-09-13/HOM-output.png" width="50%"><br>
+<img src="/assets/images/2023-09-13/HOM-output.png" width="55%"><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: left; width:80%;">
         <small>Figure 1: Possible outputs considering the HOM effect. Two identical photons enter the beam splitter through different ports and the two photons exit through the same path. </small>
@@ -53,7 +53,7 @@ $$
 We must also take into account that there is a relative phase between the reflected and transmitted light [^2]. Therefore, if the relative phase acquired by the reflected light that came through one input port of the beam splitter is $\Delta\theta_{1}$ and the one acquired by the reflected light that came through the other input port is $\Delta\theta_{2}$, they must satisfy $\Delta\theta_{1} + \Delta\theta_{2} = \pm\pi$ [^3]. Typically, there are two popular cases in the literature: if the beam splitter is symmetric in phase shifts, $\Delta\theta_{1} = \Delta\theta_{2} = \pm\pi/2$; if the beam splitter is not symmetric in phase shifts, $\Delta\theta_{1} = \pm\pi$ and $\Delta\theta_{2} = 0$ or $\Delta\theta_{1} = 0$ and $\Delta\theta_{2} = \pm\pi$ [^4]. 
 
 <div align="center">
-<img src="/assets/images/2023-09-13/BeamSplitter_2.png" width="30%"><br>
+<img src="/assets/images/2023-09-13/BeamSplitter_2.png" width="35%"><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 2: Beam splitter diagram with the ladder operators of each path. </small>
@@ -174,7 +174,7 @@ We have seen the basic theory behind the HOM effect. Now, we will dive a bit int
 The experimental setup is depicted in Figure 4 [^5]. We start by pumping a laser with frequency $\omega_0$ at a [KDP crystal](https://en.wikipedia.org/wiki/Monopotassium_phosphate) (potassium dihydrogen phosphate crystal). This generates, with some efficiency, two photons per incoming laser photon. These two new photons have lower frequencies compared with that of the incoming photon. If one frequency is $\omega_1$ and the other is $\omega_2$, these satisfy $\omega_0=\omega_1+\omega_2$ via energy conservation. This process is known as [spontaneous parametric down conversion](https://en.wikipedia.org/wiki/Spontaneous_parametric_down-conversion) (SPDC). In this case, we will be dealing with output photons with frequencies that satisfy $\omega_1=\omega_2=\omega_0/2$. Nevertheless, it is important to note that these photons will have some frequency bandwidth.
 
 <div align="center">
-<img src="/assets/images/2023-09-13/HOM setup.png" width="70%"><br>
+<img src="/assets/images/2023-09-13/HOM setup.png" width="80%"><br>
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: center; width:80%;">
         <small>Figure 4: Setup shown at the original paper by C. K. Hong <i>et al</i>. (1987).</small>
