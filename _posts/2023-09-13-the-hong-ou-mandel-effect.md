@@ -12,8 +12,6 @@ header:
 ---
 
 
-## Introduction
-
 Along with [quantum superposition](https://en.wikipedia.org/wiki/Quantum_superposition) and [quantum entanglement](https://en.wikipedia.org/wiki/Quantum_entanglement), quantum interference is one of the most important phenomena used in quantum information processing or quantum computing. In this case, quantum interference refers to the interference of [probability amplitudes](https://en.wikipedia.org/wiki/Probability_amplitude#Examples). However, it is not always mentioned when discussing such topics [^1]. 
 
 One example of quantum interference is the Hong-Ou-Mandel effect (i.e., the HOM effect), which is of great importance in [linear optical quantum computing](https://en.wikipedia.org/wiki/Linear_optical_quantum_computing). This type of interference occurs when two photons with identical properties enter a balanced [beam splitter](https://en.wikipedia.org/wiki/Beam_splitter)  at the same time through different ports. Due to the indistinguishability of the photons, the probability amplitudes of the possible outcomes interfere destructively. This results in a bunching of the photons, or photon bunching. That is, the only possible outcomes are the ones where the photons travel through the same path.
