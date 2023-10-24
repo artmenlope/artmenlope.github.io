@@ -147,7 +147,7 @@ where we used that our chosen $B$ matrix satisfies $B=B^{-1}$. Therefore, if we 
 
 $$
 \begin{array}{ll}
-\vert\Psi\rangle_{in} \!\!\!\! & = \vert 0\rangle_1 \vert 0\rangle_2 \\[1ex] 
+\vert\Psi\rangle_{in} \!\!\!\! & = \vert 1\rangle_1 \vert 1\rangle_2 \\[1ex] 
 &= a^\dagger_1 a^\dagger_2 \vert 0\rangle_1 \vert 0\rangle_2 \\[2ex]
 \vert\Psi\rangle_{out} \!\!\!\! &= \frac{1}{2}(a^\dagger_3 + a^\dagger_4)(a^\dagger_3 - a^\dagger_4) \vert 0\rangle_3 \vert 0\rangle_4\\[1ex]
 &= \frac{1}{2}(a^{\dagger 2}_3 + a^\dagger_4 a^\dagger_3 - a^\dagger_3a^\dagger_4 - a^{\dagger 2}_4) \vert 0\rangle_3 \vert 0\rangle_4\\[1ex]
