@@ -31,6 +31,8 @@ toc_icon: "fas fa-list-ul"
 
 ### Conferences
 
+- (2024, talk) [Optica Advanced Photonics Congress](https://opticaorg-dev-cac7d2csctagc8bm.z01.azurefd.net/$web/optica/media/files/events/photonics/2024/2024_ap_session_guide.pdf?ext=.pdf)
+- (2024, talk) [XXXIX RSEF Physics Biennial](https://bienalfisica.org/en/symposia#headingSimposio12)
 - (2023, poster) [2nd IKUR Quantum Science and Technology Workshop](https://giedke.dipc.org/eusqutech23.html) 
 - (2023, talk) [Kick-off meeting for the Complementary Plan in Quantum Communications](https://www.linkedin.com/pulse/plan-complementario-de-comunicaciones-cu%C3%A1nticas)
 - (2023, poster) [OPTOEL 2023](https://www.etsi.us.es/agenda/la-etsi-acoge-la-xiii-reunion-optoelectronica-optoel-2023)
