@@ -22,6 +22,12 @@ toc_icon: "fas fa-list-ul"
 - (2020) Internship at the Department of Applied Physics of the University of Alicante - [UA](https://centroempleo.ua.es/es/practicas-y-empleo/practicas-en-la-ua/convocatorias/convocatorias-ua/curso-2019-20/convocatoria-practicas-becadas-en-la-ua-39-2019.html)
 
 
+### Publications
+
+- (2024) Narrowband stimulated Raman scattering and molecular modulation in anti-resonant hollow-core fibres - [EPL](https://doi.org/10.1209/0295-5075/ad6479)
+- (2023) Protectability of IBMQ Qubits by Dynamical Decoupling Technique - [Symmetry](https://doi.org/10.3390/sym15010062)
+
+
 ### Certificates
 
 - (2023) Basic Training on Laser Safety - [ProCareLight](https://procarelight.com/en/training/basic-training)
