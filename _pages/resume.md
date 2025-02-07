@@ -31,6 +31,7 @@ toc_icon: "fas fa-list-ul"
 
 ### Conferences
 
+- (2024, poster) [3rd IKUR Quantum Science and Technology Workshop](https://giedke.dipc.org/eusqutech24.html)
 - (2024, talk) [Optica Advanced Photonics Congress](https://opticaorg-dev-cac7d2csctagc8bm.z01.azurefd.net/$web/optica/media/files/events/photonics/2024/2024_ap_session_guide.pdf?ext=.pdf)
 - (2024, talk) [XXXIX RSEF Physics Biennial](https://bienalfisica.org/en/symposia#headingSimposio12)
 - (2023, poster) [2nd IKUR Quantum Science and Technology Workshop](https://giedke.dipc.org/eusqutech23.html) 
