@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Arturo Mena"
-  avatar           : "" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  #avatar           : "" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Physics PhD student at UPV/EHU" #"I am an **amazing** person."
   location         : #"Earth"
   email            : "artmenlope@gmail.com"
