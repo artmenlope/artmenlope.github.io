@@ -24,6 +24,7 @@ toc_icon: "fas fa-list-ul"
 
 ### Publications
 
+- (2025) Entanglement transfer during quantum frequency conversion in gas-filled hollow-core fibers - [APL Photonics](https://doi.org/10.1063/5.0246782)
 - (2024) Narrowband stimulated Raman scattering and molecular modulation in anti-resonant hollow-core fibres - [EPL](https://doi.org/10.1209/0295-5075/ad6479)
 - (2023) Protectability of IBMQ Qubits by Dynamical Decoupling Technique - [Symmetry](https://doi.org/10.3390/sym15010062)
 
